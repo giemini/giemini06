@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>晶悅</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/Group.css">
+    <link rel="stylesheet" href="css/Group_Performance.css">
+    <link rel="stylesheet" href="css/Group_Honor.css">
+    <link rel="stylesheet" href="css/twenty.css">
+    <link rel="stylesheet" href="css/company.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        FontJSON = {
+            User: "11785",
+            DomainID: "D0002836ZMV",
+            Font: ["DFHeiStd-W3", "DFHeiStd-W5", "DFHeiStd-W7"]
+        }
+    </script>
+    <script src='https://dfo.dynacw.com.tw/DynaJSFont/DynaFont.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        $(function() {
+            // if(device.desktop()){
+            //     //
+            // }
+            // else{
+            //     document.location.href = "mobile/Group.html";
+            // }
+        })
+    </script>
+    <script>
+        $(function() {
+            $(".Performance").click(function() {
+                $(".open01").toggleClass("action");
+                $("body").addClass("noscroll");
+            });
+            $(".honor").click(function() {
+                $(".open02").toggleClass("action");
+                $("body").addClass("noscroll");
+            });
+            $(".Performance2").click(function() {
+                $(".open03").toggleClass("action");
+            });
+            $(".honor2").click(function() {
+                $(".open04").toggleClass("action");
+            });
+            $(".Performance3").click(function() {
+                $(".open05").toggleClass("action");
+                $("body").addClass("noscroll");
+            });
+            $(".honor3").click(function() {
+                $(".open06").toggleClass("action");
+                $("body").addClass("noscroll");
+            });
+            $(".Performance4").click(function() {
+                $(".open07").toggleClass("action");
+                $("body").addClass("noscroll");
+            });
+            $(".backBtn").click(function() {
+                $(".open01").toggleClass("action");
+                $("body").removeClass("noscroll");
+            });
+            $(".backBtn2").click(function() {
+                $(".open02").toggleClass("action");
+                $("body").removeClass("noscroll");
+            });
+            $(".backBtn3").click(function() {
+                $(".open03").toggleClass("action");
+            });
+            $(".backBtn4").click(function() {
+                $(".open04").toggleClass("action");
+            });
+            $(".backBtn5").click(function() {
+                $(".open05").toggleClass("action");
+                $("body").removeClass("noscroll");
+            });
+            $(".backBtn6").click(function() {
+                $(".open06").toggleClass("action");
+                $("body").removeClass("noscroll");
+            });
+            $(".backBtn7").click(function() {
+                $(".open07").toggleClass("action");
+                $("body").removeClass("noscroll");
+            });
+            $(".backBtn10").click(function() {
+                $("#group03").fadeOut(800);
+                $("body").removeClass("noscroll");
+            });
+            $(".backBtn11").click(function() {
+                $("#Brand").fadeOut(800);
+                $("body").removeClass("noscroll");
+            });
+            $("#group03Open").click(() => {
+                $("#group03").fadeIn(800);
+                $("body").addClass("noscroll");
+            });
+            $("#brandOpen").click(() => {
+                $("#Brand").fadeIn(800);
+                $("body").addClass("noscroll");
+            });
+            $(".twenty").click(function() {
+                $(".twentyArea").toggleClass("action");
+            });
+            $(".company").click(function() {
+                $(".companyArea").toggleClass("action");
+            });
+            $(".backBtn8").click(function() {
+                $(".twentyArea").toggleClass("action");
+            });
+            $(".backBtn9").click(function() {
+                $(".companyArea").toggleClass("action");
+            });
+            $(window).scroll(function() {
+                var scrollVal = $(this).scrollTop();
+                if (scrollVal >= 100) {
+                    $(".scrolldown").css("opacity", "0");
+                } else {
+                    $(".scrolldown").css("opacity", "1");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loadheader">
+            <div class="humberA">
+                <img src="images/humber.png" alt="">
+            </div>
+            <div class="humberB">
+                <img src="images/humber_white.png" alt="">
+            </div>
+            <div class="menuArea">
+                <ul class="menu">
+                    <li class="navbtn">
+                        <a>
+                            建設大台南
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Tainan.html">
+                                    南&nbsp;臺&nbsp;灣&nbsp;樞&nbsp;紐
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            悠&nbsp;遊&nbsp;生&nbsp;活
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="traffic.html">
+                                    便&nbsp;&nbsp;利&nbsp;&nbsp;交&nbsp;&nbsp;通
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="daylife.html">
+                                    一&nbsp;&nbsp;日&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="life.html">
+                                    特&nbsp;&nbsp;區&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;美&nbsp;學
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Exterior.html">
+                                    建&nbsp;&nbsp;築&nbsp;&nbsp;外&nbsp;&nbsp;觀
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="Public.html">
+                                    公&nbsp;&nbsp;設&nbsp;&nbsp;規&nbsp;&nbsp;劃
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="floor.html">
+                                    樓&nbsp;&nbsp;層&nbsp;&nbsp;配&nbsp;&nbsp;置
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;結&nbsp;構
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Construction.html">
+                                    精&nbsp;&nbsp;細&nbsp;&nbsp;工&nbsp;&nbsp;法
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="SGS.html">
+                                    SGS建築認證
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="BtnArea">
+                    <div class="HomeBtn">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="index">
+        <div class="Bread">
+            <div class="txt">
+                前瞻團隊&nbsp;建築團隊
+            </div>
+        </div>
+        <section class="wrapper">
+            <div class="GroupArea">
+                <div class="Group areaone">
+                    <div class="areatxt txt01 animate__animated animate__fadeInLeft">
+                        <div class="topimg01">
+                            <img src="images/Group/topimg01.png" alt="">
+                        </div>
+                        <div class="content">
+                            1996年創建至今，京富祥營造為上市公司 的御用團隊,長年攜手三發地產(股號9946) ，堅持透明化工程的建築理念，在業界創佳績近20年。
+                        </div>
+                        <div class="content" style="padding: 3% 0%;padding-bottom: 0%;">
+                            透過專業營造凝聚近2400戶的家庭完滿,更以優質安全的施工品質，屢於全臺締造建築新地標。
+                        </div>
+                        <div class="arealink">
+                            <div class="openpage group03Open" id="group03Open">
+                                團隊資訊
+                            </div>
+                        </div>
+                    </div>
+                    <div class="areatxt txt02 animate__animated animate__fadeInDown">
+                        <div class="topimg02">
+                            <img src="images/Group/topimg02.png" alt="">
+                            <div class="strong">
+                                <img src="images/Group/strong-02.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>團隊―</p>
+                            <p>嚴謹的堆疊才能堆出美 好的高度。</p>
+                            <p>集結各專業團隊，以有愛的心，嚴</p>
+                            <p>謹的手，齊心齊力打造出讓居住者</p>
+                            <p>無壓、無慮的生活場域。</p>
+                        </div>
+                    </div>
+                    <div class="areatxt txt03 animate__animated animate__fadeInRight">
+                        <div class="topimg03">
+                            <img src="images/Group/topimg03.png" alt="">
+                        </div>
+                        <div class="content">
+                            「晶悅國際」飯店背景出身,秉持著賓至如歸的款待精神跨足建築，將舒適住宿品質與用餐環境深化至公設及居家,於2011年股票掛牌上櫃(股號2718)。
+                        </div>
+                        <div class="content" style="padding: 3% 0%;padding-bottom: 0%;">
+                            集建築巨擘、設計名家、營造專業，「晶悅首發」為晶悅國際推出之首座住宅作品。
+                        </div>
+                        <div class="arealink">
+                            <div class="openpage brandOpen" id="brandOpen">
+                                團隊資訊
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group03" id="group03">
+                    <div class="GroupArea">
+                        <div class="Group">
+                            <div class="Groupimg">
+                                <img src="images/Group/pic02.png" alt="">
+                            </div>
+                            <div class="Grouptxt">
+                                <div class="title" data-aos="fade-right">
+                                    京富祥營造
+                                </div>
+                                <div class="content" data-aos="fade-left">
+                                    <p>真心、用心、創新 蓋您期待已久的家</p>
+                                    京富祥營造成立10多年，作品遍及台北、新竹、台南、高雄等地，多次榮獲國家建築金質獎殊榮，締造優質的建築新地標，品質有口皆碑，這些耀眼成績來自於京富祥對完善建築品質的一貫堅持！
+                                </div>
+                                <div class="pagelink" data-aos="fade-up">
+                                    <div class="openpage Performance2">
+                                        經典業績
+                                    </div>
+                                    <div class="openpage honor2">
+                                        榮譽紀錄
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg bg02">
+                            <img src="images/Group/bg02.png" alt="">
+                        </div>
+                    </div>
+                    <div class="backBtn10">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+                <div class="Brand" id="Brand">
+                    <div class="BrandArea">
+                        <div class="text">
+                            <div class="title">
+                                <div class="txt">
+                                    晶悅國際
+                                </div>
+                                <div class="logo">
+                                    <img src="images/Brand/Brand_logo.png" alt="" class="animate__animated animate__backInDown">
+                                </div>
+                            </div>
+                            <div class="content">
+                                <p>精彩可期 盡在晶悅</p>
+                                晶悅國際，秉持著精益求精的精神，期許與國際接軌。晶悅國際飯店原為桃園大飯店，在1981年風光開幕，2015年改名為晶悅國際飯店，為桃園地區國際級觀光飯店，提供旅客更舒適的住宿品質與用餐環境；2019年通過觀光局星級評鑑「星級旅館評鑑」為四星級。2020年將未來業務重點轉向營建產業發展，【晶悅首發】為其首次建造於台南之住宅區。
+                            </div>
+                            <div class="pagelink">
+                                <div class="twenty">
+                                    20大保證
+                                </div>
+                                <div class="company">
+                                    企業堅持
+                                </div>
+                            </div>
+                        </div>
+                        <div class="picture">
+                            <img src="images/Brand/Brand_pic.png" alt="">
+                        </div>
+                    </div>
+                    <div class="backBtn11">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                    <div class="twentyArea">
+                        <div class="twentyimg">
+                            <img src="images/Brand/twenty_pic.png" alt="">
+                        </div>
+                        <div class="titleimg">
+                            <img src="images/Brand/title_pic.png" alt="">
+                        </div>
+                        <div class="backBtn8">
+                            <img src="images/Brand/back_pic.png" alt="">
+                        </div>
+                    </div>
+                    <div class="companyArea">
+                        <div class="company_pic">
+                            <div class="titleimg2">
+                                <img src="images/Brand/title_pic2.png" alt="">
+                            </div>
+                            <div class="companyimg">
+                                <div class="companycard">
+                                    <div class="image image1">
+                                        <img src="images/Brand/greenhouse.png" alt="">
+                                    </div>
+                                    <div class="companytxt">
+                                        <p style="padding: 12% 0% 1% 0%;">綠態建築</p>
+                                        促進建築與環境共生共利，永續經營居住環境。
+                                    </div>
+                                </div>
+                                <div class="companycard">
+                                    <div class="image image2">
+                                        <img src="images/Brand/hotel.png" alt="">
+                                    </div>
+                                    <div class="companytxt">
+                                        <p style="padding: 10% 0% 1% 0%;">飯店式管理</p>
+                                        添加便利的物業管理系統，包辦生活大小瑣事。
+                                    </div>
+                                </div>
+                                <div class="companycard">
+                                    <div class="image image3">
+                                        <img src="images/Brand/music.png" alt="">
+                                    </div>
+                                    <div class="companytxt">
+                                        <p style="padding: 8% 0% 1% 0%;">音樂建築</p>
+                                        選用金革唱片，以音樂與建築創造生活新態度。
+                                    </div>
+                                </div>
+                                <div class="companycard">
+                                    <div class="image image4">
+                                        <img src="images/Brand/quality.png" alt="">
+                                    </div>
+                                    <div class="companytxt">
+                                        <p style="padding: 10% 0% 1% 0%;">品質嚴選</p>
+                                        嚴選高品質建築材料，用心把關，值得您信賴。
+                                    </div>
+                                </div>
+                                <div class="companycard">
+                                    <div class="image image5">
+                                        <img src="images/Brand/heart.png" alt="">
+                                    </div>
+                                    <div class="companytxt">
+                                        <p style="padding: 16.9% 0% 1% 0%;">安心保固</p>
+                                        以責任感實踐品牌承諾，由內而外維護您的家。
+                                    </div>
+                                </div>
+                                <div class="companycard">
+                                    <div class="image image6">
+                                        <img src="images/Brand/house.png" alt="">
+                                    </div>
+                                    <div class="companytxt">
+                                        <p style="padding: 10% 0% 1% 0%;">通風採光</p>
+                                        堅持規劃地下室採光通風，明亮生活每個角落。
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backBtn9">
+                                <img src="images/Brand/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg bg04">
+                    <img src="images/Group/bg04.png" alt="">
+                </div>
+            </div>
+            <div class="GroupArea" id="content">
+                <div class="Group">
+                    <div class="Grouptxt">
+                        <div class="title" data-aos="fade-right">
+                            禾象聯合<br /> 建築師事務所
+                        </div>
+                        <div class="content" data-aos="fade-left">
+                            <p>以赤子之心 打造溫暖住居</p>
+                            王東奎建築師具有多年豐富之建築設計、都市設計及土地規劃之實務經驗。完成作品涵蓋住宅、旅館、商業與室內裝修之規劃設計，並且在住宅設計與土地開發有深度的研究與經驗。這些年來已累積之作品地區涵蓋了臺灣、中國、緬甸與柬埔寨等地。
+                        </div>
+                        <div class="pagelink" data-aos="fade-up">
+                            <div class="openpage Performance">
+                                經典業績
+                            </div>
+                            <div class="openpage honor">
+                                榮譽紀錄
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Groupimg">
+                        <img src="images/Group/pic01.png" alt="">
+                    </div>
+                </div>
+                <div class="bg bg01">
+                    <img src="images/Group/bg01.png" alt="">
+                </div>
+            </div>
+            <div class="GroupArea">
+                <div class="Group">
+                    <div class="Grouptxt" style="margin-top: -10%;">
+                        <div class="title" data-aos="fade-right">
+                            上境設計公司<br /> G-Design
+                        </div>
+                        <div class="content" data-aos="fade-left">
+                            <p>以創意思維 形上乘運境</p>
+                            <p style="border-left: 0px;padding-left: 5.5%;">由綠入深景由景入人心</p>
+                            上境設計的作品從私人空間到公共工程，包羅萬象，負責人許富居，運用多種元素，融合地形與植栽，在空間與實用性間取得完美的平衡，曾多次拿下高雄市建築經營協會的建築園冶獎，獲得臺中市都市空間設計大賞；及日本Good Design Award設計獎、美國MUSE Design Awards等大獎。
+                        </div>
+                        <div class="pagelink" data-aos="fade-up">
+                            <div class="openpage Performance3">
+                                經典業績
+                            </div>
+                            <div class="openpage honor3">
+                                榮譽紀錄
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Groupimg">
+                        <img src="images/Group/pic03.png" alt="">
+                    </div>
+                </div>
+                <div class="bg bg03">
+                    <img src="images/Group/bg03.png" alt="">
+                </div>
+            </div>
+            <div class="GroupArea" style="margin-bottom: 40px;">
+                <div class="Group">
+                    <div class="Groupimg">
+                        <img src="images/Group/pic04.png" alt="">
+                    </div>
+                    <div class="Grouptxt" style="width: 37.35638%;margin-left: 2%;">
+                        <div class="title" data-aos="fade-right">
+                            科建聯合工程<br /> 專業結構顧問
+                        </div>
+                        <div class="content" data-aos="fade-left">
+                            <p>2020年 晶悅首發 專業結構技師入駐</p>
+                            係成立於民國七十八年，於今已有二十多年歷史。 目前業務主要是與國內數家知名建設公司(如興富發、達麗、潤隆、龍騰、大隱…等)合作。
+                        </div>
+                        <div class="txt" data-aos="fade-right">
+                            <div class="txtTitle">
+                                榮耀與肯定
+                            </div>
+                            <ul>
+                                <li>
+                                    擁有多項專利，安全結構承受地震力。
+                                </li>
+                                <li>
+                                    作品榮登日本權威刊物JSSI社團法人日本免震構造協會。
+                                </li>
+                                <li>
+                                    作品榮登中國土木水利工程學會刊物。
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="txt" data-aos="fade-left">
+                            <div class="txtTitle">
+                                專業技術
+                            </div>
+                            <div class="left">
+                                <ul>
+                                    <li>
+                                        鋼結構安全
+                                    </li>
+                                    <li>
+                                        房屋結構
+                                    </li>
+                                    <li>
+                                        減震技術
+                                    </li>
+                                    <li>
+                                        建築物層間隔震系統
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li>
+                                        隔震結構
+                                    </li>
+                                    <li>
+                                        特殊結構設計
+                                    </li>
+                                    <li>
+                                        基礎結構設計
+                                    </li>
+                                    <li>
+                                        土木工程、顧問及諮詢
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="pagelink" data-aos="fade-up">
+                            <div class="openpage Performance4">
+                                經典業績
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="open open01">
+                <div class="openArea">
+                    <div class="openimg">
+                        <img src="images/Group/Performance01.png" alt="">
+                    </div>
+                    <div class="bg bg05">
+                        <img src="images/Group/bg05.png" alt="">
+                    </div>
+                    <div class="backBtn">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="open open02">
+                <div class="openArea">
+                    <div class="Honor">
+                        <div class="Honorimg">
+                            <img src="images/Group/honor01_.png" alt="">
+                        </div>
+                        <div class="Honortxt">
+                            <div class="Honorcontent">
+                                <p>2020</p>
+                                <div class="txt">
+                                    晶悅首發&nbsp;｜&nbsp;經典劃擘，強勢出擊
+                                </div>
+                            </div>
+                            <div class="Honorcontent">
+                                <p>2019</p>
+                                <div class="txt">
+                                    建築園冶獎-臺南市-大樓建築景觀類
+                                </div>
+                                <div class="txt">
+                                    國家卓越建設獎-最佳規劃設計類-金質獎
+                                </div>
+                                <div class="txt">
+                                    國家卓越建設獎-最佳施工品質類-金質獎
+                                </div>
+                                <div class="txt">
+                                    國家卓越建設獎-最佳社會住宅類-特別獎
+                                </div>
+                            </div>
+                            <div class="Honorcontent">
+                                <p>2018</p>
+                                <div class="txt">
+                                    建築園冶獎-臺南市-大樓建築景觀類
+                                </div>
+                                <div class="txt">
+                                    建築園冶獎-臺南市-大樓建築景觀類
+                                </div>
+                                <div class="txt">
+                                    建築園冶獎-臺南市-透天建築景觀類
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backBtn2">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="open open03">
+                <div class="openArea">
+                    <div class="openimg">
+                        <img src="images/Group/Performance02.png" alt="">
+                    </div>
+                    <div class="bg bg06">
+                        <img src="images/Group/bg06.png" alt="">
+                    </div>
+                    <div class="backBtn3">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="open open04">
+                <div class="openArea">
+                    <div class="Honor">
+                        <div class="Honorimg2">
+                            <img src="images/Group/honor02_.png" alt="">
+                        </div>
+                        <div class="Honortxt2">
+                            <div class="Honorcontent">
+                                <p>2019</p>
+                                <div class="txt">
+                                    三發滙世界&nbsp;｜&nbsp;國家卓越建設獎金質獎&nbsp;｜&nbsp;最佳施工品質類
+                                </div>
+                                <div class="txt">
+                                    台灣永續發展協會&nbsp;｜&nbsp;台灣誠信建商
+                                </div>
+                            </div>
+                            <div class="Honorcontent">
+                                <p>2018</p>
+                                <div class="txt">
+                                    三發丰悅&nbsp;｜&nbsp;第20屆國家建築金質獎&nbsp;｜&nbsp;施工品質類
+                                </div>
+                                <div class="txt">
+                                    台灣永續發展協會&nbsp;｜&nbsp;台灣誠信建商
+                                </div>
+                            </div>
+                            <div class="Honorcontent">
+                                <p>2017</p>
+                                <div class="txt">
+                                    三發晶沙&nbsp;｜&nbsp;國家建築金質獎&nbsp;｜&nbsp;施工品質類 金質獎
+                                </div>
+                                <div class="txt">
+                                    三發晶沙&nbsp;｜&nbsp;國家建築金質獎&nbsp;｜&nbsp;施工品質類 全國首獎
+                                </div>
+                            </div>
+                            <div class="Medals">
+                                <img src="images/Group/Medals.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backBtn4">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="open open05">
+                <div class="openArea">
+                    <div class="openimg">
+                        <img src="images/Group/Performance03.png" alt="">
+                    </div>
+                    <div class="bg bg07">
+                        <img src="images/Group/bg07.png" alt="">
+                    </div>
+                    <div class="backBtn5">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="open open06">
+                <div class="openArea">
+                    <div class="Honor">
+                        <div class="Honorimg">
+                            <img src="images/Group/honor03_.png" alt="">
+                        </div>
+                        <div class="Honortxt">
+                            <div class="Honorcontent">
+                                <p>臺中帝國製糖廠湧泉公園工程規劃設計得獎獎項</p>
+                                <div class="txt">
+                                    2020 義大利 A’Design Award 金獎
+                                </div>
+                                <div class="txt">
+                                    2020 法國 NOVUM Design Award 金獎
+                                </div>
+                                <div class="txt">
+                                    2020 雪梨 Sydney Design Award 銀獎
+                                </div>
+                                <div class="txt">
+                                    2020 美國 SPARK AWARDS 大獎
+                                </div>
+                                <div class="txt">
+                                    2020 新加坡 SIDA 大獎
+                                </div>
+                                <div class="txt">
+                                    2020 美國 MUSE 金獎
+                                </div>
+                            </div>
+                            <div class="Honorcontent">
+                                <p>綠空鐵道軸線景觀公園工程規劃設計榮獲獎項</p>
+                                <div class="txt">
+                                    2020 日本 Good Design Award設計獎
+                                </div>
+                                <div class="txt">
+                                    2020 美國 MUSE Design Awards白金獎
+                                </div>
+                                <div class="txt">
+                                    2020 美國 Spark Design Awards銀獎
+                                </div>
+                                <div class="txt">
+                                    2020 澳洲 Sydney Design Awards金獎
+                                </div>
+                                <div class="txt">
+                                    2020 新加坡 Singapore Interior Design Awards銀獎
+                                </div>
+                                <div class="txt">
+                                    2020 法國 Novum Design Award金獎
+                                </div>
+                                <div class="txt">
+                                    2020 義大利 A' Design Award and Competition大獎
+                                </div>
+                                <div class="txt">
+                                    2019 台灣景觀大獎－公共建設類&nbsp;｜&nbsp;優質獎
+                                </div>
+                                <div class="txt">
+                                    2020 IFLA AAPME Awards&nbsp;｜&nbsp;經濟可行性類別榮譽獎
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="backBtn6">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="open open07">
+                <div class="openArea">
+                    <div class="openimg">
+                        <img src="images/Group/Performance04.png" alt="">
+                    </div>
+                    <div class="bg bg08">
+                        <img src="images/Group/bg08.png" alt="">
+                    </div>
+                    <div class="backBtn7">
+                        <img src="images/back_pic.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <a href="#content" class="scrolldown">
+                <div class="downbtn">
+                </div>
+            </a>
+        </section>
+    </div>
+    <footer>
+        <div class="loadfooter">
+            COPYRIGHT @ 2021 XCITY CITIES OF TOMORROW BY UNIQUE
+        </div>
+    </footer>
+    <script>
+        AOS.init({
+            once: false,
+            mirror: true,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

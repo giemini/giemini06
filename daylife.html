@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>晶悅</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/daylife.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/daylife.js"></script>
+    <script>
+        FontJSON = {
+            User: "11785",
+            DomainID: "D0002836ZMV",
+            Font: ["DFHeiStd-W3", "DFHeiStd-W5", "DFHeiStd-W7"]
+        }
+    </script>
+    <script src='https://dfo.dynacw.com.tw/DynaJSFont/DynaFont.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        $(function() {
+            // if(device.desktop()){
+            //     //
+            // }
+            // else{
+            //     document.location.href = "mobile/daylife.html";
+            // }
+            $(window).scroll(function() {
+                var scrollVal = $(this).scrollTop();
+                if (scrollVal >= 100) {
+                    $(".scrolldown").css("opacity", "0");
+                } else {
+                    $(".scrolldown").css("opacity", "1");
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loadheader">
+            <div class="humberA">
+                <img src="images/humber.png" alt="">
+            </div>
+            <div class="humberB">
+                <img src="images/humber_white.png" alt="">
+            </div>
+            <div class="menuArea">
+                <ul class="menu">
+                    <li class="navbtn">
+                        <a>
+                            建設大台南
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Tainan.html">
+                                    南&nbsp;臺&nbsp;灣&nbsp;樞&nbsp;紐
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            悠&nbsp;遊&nbsp;生&nbsp;活
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="traffic.html">
+                                    便&nbsp;&nbsp;利&nbsp;&nbsp;交&nbsp;&nbsp;通
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="daylife.html">
+                                    一&nbsp;&nbsp;日&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="life.html">
+                                    特&nbsp;&nbsp;區&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;美&nbsp;學
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Exterior.html">
+                                    建&nbsp;&nbsp;築&nbsp;&nbsp;外&nbsp;&nbsp;觀
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="Public.html">
+                                    公&nbsp;&nbsp;設&nbsp;&nbsp;規&nbsp;&nbsp;劃
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="floor.html">
+                                    樓&nbsp;&nbsp;層&nbsp;&nbsp;配&nbsp;&nbsp;置
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;結&nbsp;構
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Construction.html">
+                                    精&nbsp;&nbsp;細&nbsp;&nbsp;工&nbsp;&nbsp;法
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="SGS.html">
+                                    SGS建築認證
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="BtnArea">
+                    <div class="HomeBtn">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="index">
+        <section class="wrapper">
+            <div class="Bread">
+                <div class="txt">
+                    悠遊生活&nbsp;一日生活
+                </div>
+                <div class="baseline"></div>
+            </div>
+            <div class="banner">
+                <img src="images/daylife/daylife_img.jpg" alt="">
+                <div class="text">
+                    <div class="title" data-aos="fade-right">
+                        台南一日生活圈
+                    </div>
+                    <div class="subtitle" data-aos="fade-left">
+                        交通滿點 生活滿分
+                    </div>
+                    <div class="content" data-aos="fade-up">
+                        休閒娛樂，是生活必不可少的存在，行車3分鐘抵達台86，交通方面四通八達，何處皆暢行無駔，台南除了是台灣最老古城外更是美食之都，驅車探索這個古城以及周邊美食，是生活享受，也是歷史薰陶，除了娛樂生活外更重要的是人文，過街即是公園預定地，周圍滿是綠意，生活皆是愜意。
+                    </div>
+                </div>
+                <div class="dot dot01">
+                    <img src="images/daylife/dot01.png" alt="">
+                </div>
+                <div class="dot dot02">
+                    <img src="images/daylife/dot02.png" alt="">
+                </div>
+                <div class="dot dot03">
+                    <img src="images/daylife/dot03.png" alt="">
+                </div>
+                <div class="dot dot04">
+                    <img src="images/daylife/dot04.png" alt="">
+                </div>
+                <div class="dot dot05">
+                    <img src="images/daylife/dot05-1.png" alt="">
+                </div>
+                <div class="dot dot06">
+                    <img src="images/daylife/dot06.png" alt="">
+                </div>
+                <div class="dot dot07">
+                    <img src="images/daylife/dot07.png" alt="">
+                </div>
+                <div class="dot dot08">
+                    <img src="images/daylife/dot08.png" alt="">
+                </div>
+                <div class="dot dot09">
+                    <img src="images/daylife/dot09.png" alt="">
+                </div>
+                <div class="dot dot10">
+                    <img src="images/daylife/dot10.png" alt="">
+                </div>
+                <div class="dot dot11">
+                    <img src="images/daylife/dot11.png" alt="">
+                </div>
+                <div class="dot dot12">
+                    <img src="images/daylife/dot12-1.png" alt="">
+                </div>
+                <div class="dot dot13">
+                    <img src="images/daylife/dot13.png" alt="">
+                </div>
+                <div class="car car01">
+                    <img src="images/daylife/car01.png" alt="">
+                </div>
+                <div class="car car02">
+                    <img src="images/daylife/car02.png" alt="">
+                </div>
+                <div class="car car03">
+                    <img src="images/daylife/car03.png" alt="">
+                </div>
+                <div class="car car04">
+                    <img src="images/daylife/car04.png" alt="">
+                </div>
+                <div class="car car05">
+                    <img src="images/daylife/car05.png" alt="">
+                </div>
+                <div class="car car06">
+                    <img src="images/daylife/car06.png" alt="">
+                </div>
+                <div class="car car07">
+                    <img src="images/daylife/car07.png" alt="">
+                </div>
+                <div class="car car08">
+                    <img src="images/daylife/car08.png" alt="">
+                </div>
+                <div class="car car09">
+                    <img src="images/daylife/car09.png" alt="">
+                </div>
+                <div class="car car10">
+                    <img src="images/daylife/car10.png" alt="">
+                </div>
+                <div class="car car11">
+                    <img src="images/daylife/car11.png" alt="">
+                </div>
+                <div class="car car12">
+                    <img src="images/daylife/car12.png" alt="">
+                </div>
+                <div class="car car13">
+                    <img src="images/daylife/car13.png" alt="">
+                </div>
+                <a href="#content" class="scrolldown">
+                    <div class="downbtn">
+                    </div>
+                </a>
+            </div>
+            <div class="container" id="content">
+                <img src="images/daylife/daylife_img2.jpg" alt="">
+                <div class="text2">
+                    <div class="title" data-aos="fade-right">
+                        高鐵一日生活圈
+                    </div>
+                    <div class="subtitle" data-aos="fade-left">
+                        片刻行車 及時行樂
+                    </div>
+                    <div class="content" data-aos="fade-up">
+                        步行12分鐘即可抵達高鐵台南站，距離再也不是問題，不論是外地出遊或工作出差，一日來回也是悠然自得，省下的不僅是時間，更是時光！
+                    </div>
+                </div>
+                <div class="point taipei apear2" data-aos="fade-right">
+                    <img src="images/daylife/taipei.png" alt="">
+                </div>
+                <div class=" color taipei-color">
+                    <img src="images/daylife/taipei-color.png" alt="">
+                </div>
+                <div class="point taoyuan apear2" data-aos="fade-left">
+                    <img src="images/daylife/taoyuan.png" alt="">
+                </div>
+                <div class=" color taoyuan-color">
+                    <img src="images/daylife/taoyuan-color.png" alt="">
+                </div>
+                <div class="point hsinchu apear2" data-aos="fade-right">
+                    <img src="images/daylife/hsinchu.png" alt="">
+                </div>
+                <div class=" color hsinchu-color">
+                    <img src="images/daylife/hsinchu-color.png" alt="">
+                </div>
+                <div class="point taichung apear2" data-aos="fade-left">
+                    <img src="images/daylife/taichung.png" alt="">
+                </div>
+                <div class=" color taichung-color">
+                    <img src="images/daylife/taichung-color.png" alt="">
+                </div>
+                <div class="point kaohsiung apear2" data-aos="fade-right">
+                    <img src="images/daylife/kaohsiung.png" alt="">
+                </div>
+                <div class=" color kaohsiung-color">
+                    <img src="images/daylife/kaohsiung-color.png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="loadfooter">
+            COPYRIGHT @ 2021 XCITY CITIES OF TOMORROW BY UNIQUE
+        </div>
+    </footer>
+    <script>
+        AOS.init({
+            once: false,
+            mirror: true,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

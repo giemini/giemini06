@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>晶悅</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/floor.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="js/jquery.dragscroll.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="js/open.js"></script>
+    <script>
+        FontJSON = {
+            User: "11785",
+            DomainID: "D0002836ZMV",
+            Font: ["DFHeiStd-W3", "DFHeiStd-W5", "DFHeiStd-W7"]
+        }
+    </script>
+    <script src='https://dfo.dynacw.com.tw/DynaJSFont/DynaFont.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        $(function() {
+            // if(device.desktop()){
+            //     //
+            // }
+            // else{
+            //     document.location.href = "mobile/traffic.html";
+            // }
+            $(".West").click(function() {
+                $(".floorOpen").fadeIn(800);
+                $(".Bread .txt").css("display", "none");
+                $(".Bread .txt2").css("display", "block");
+            });
+            $(".backBtn").click(function() {
+                $(".floorOpen").fadeOut(800);
+                $(".Bread .txt").css("display", "block");
+                $(".Bread .txt2").css("display", "none");
+            });
+            $(".backBtn2").click(() => {
+                $(".jiapeiOpen").fadeOut(800);
+            });
+            $(".backBtn3").click(function() {
+                $(".dragarea").fadeOut(800);
+                $(".Bread .txt").css("display", "none");
+                $(".Bread .txt2").css("display", "block");
+            });
+        });
+    </script>
+    <script>
+        $(function() {
+            $('.drag').dragscroll();
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="loadheader">
+            <div class="humberA">
+                <img src="images/humber.png" alt="">
+            </div>
+            <div class="humberB">
+                <img src="images/humber_white.png" alt="">
+            </div>
+            <div class="menuArea">
+                <ul class="menu">
+                    <li class="navbtn">
+                        <a>
+                            建設大台南
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Tainan.html">
+                                    南&nbsp;臺&nbsp;灣&nbsp;樞&nbsp;紐
+                                </a>
+
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            悠&nbsp;遊&nbsp;生&nbsp;活
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="traffic.html">
+                                    便&nbsp;&nbsp;利&nbsp;&nbsp;交&nbsp;&nbsp;通
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="daylife.html">
+                                    一&nbsp;&nbsp;日&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="life.html">
+                                    特&nbsp;&nbsp;區&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;美&nbsp;學
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Exterior.html">
+                                    建&nbsp;&nbsp;築&nbsp;&nbsp;外&nbsp;&nbsp;觀
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="Public.html">
+                                    公&nbsp;&nbsp;設&nbsp;&nbsp;規&nbsp;&nbsp;劃
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="floor.html">
+                                    樓&nbsp;&nbsp;層&nbsp;&nbsp;配&nbsp;&nbsp;置
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;結&nbsp;構
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Construction.html">
+                                    精&nbsp;&nbsp;細&nbsp;&nbsp;工&nbsp;&nbsp;法
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="SGS.html">
+                                    SGS建築認證
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="BtnArea">
+                    <div class="HomeBtn">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="index">
+        <section class="wrapper">
+            <div class="Bread">
+                <div class="txt">
+                    建築美學&nbsp;樓層配置
+                </div>
+            </div>
+
+            <div class="banner">
+                <div class="West">
+                    <img src="images/floor/West_color.png" alt="">
+                </div>
+                <div class="images">
+                    <img src="images/floor/floorimg.jpg" alt="">
+                </div>
+                <div class="floorOpen">
+                    <div class="Bread">
+                        <div class="txt2">
+                            建築美學&nbsp;樓層配置
+                        </div>
+                    </div>
+                    <div class="openmenu">
+                        <ul>
+                            <li>
+                                <div class="floors RFbtn">
+                                    RF
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 13Fbtn">
+                                    13F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 12Fbtn">
+                                    12F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 11Fbtn">
+                                    11F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 10Fbtn">
+                                    10F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 7-9Fbtn">
+                                    7-9F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 6Fbtn">
+                                    6F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 4-5Fbtn">
+                                    4-5F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 3Fbtn">
+                                    3F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 2Fbtn">
+                                    2F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors 1Fbtn check">
+                                    1F
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors B1btn">
+                                    B1
+                                </div>
+                            </li>
+                            <li>
+                                <div class="floors B2btn">
+                                    B2
+                                </div>
+                            </li>
+                            <li>
+                                <div class="big">
+                                    <img src="images/floor/magnifier.png" alt="">
+                                    <div class="magnifier">
+                                        <img src="images/floor/magnifier2.png" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="floor B2">
+                        <div class="txt B2txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        B2F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B2img">
+                            <img src="images/floor/B2Open.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/B2Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor B1">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        B1F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/B1Open.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/B1Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 1F pear">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        1F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/1FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/1Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 2F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        2F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/2FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/2Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 3F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        3F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/3FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/3Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 4-5F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        4-5F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/4-5FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/4-5Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 6F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        6F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/6FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/6Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 7-9F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        7-9F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/7-9FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="HBtn H1">
+                            <img src="images/floor/H1.png" alt="">
+                        </div>
+                        <div class="HBtn H2">
+                            <img src="images/floor/H2.png" alt="">
+                        </div>
+                        <div class="HBtn H3">
+                            <img src="images/floor/H3.png" alt="">
+                        </div>
+                        <div class="HBtn H5">
+                            <img src="images/floor/H5.png" alt="">
+                        </div>
+                        <div class="HBtn H6">
+                            <img src="images/floor/H6.png" alt="">
+                        </div>
+                        <div class="HBtn H7">
+                            <img src="images/floor/H7.png" alt="">
+                        </div>
+                        <div class="HBtn H8">
+                            <img src="images/floor/H8.png" alt="">
+                        </div>
+                        <div class="HBtn H11" style="cursor: inherit;">
+                            <img src="images/floor/H11.png" alt="">
+                        </div>
+
+                        <div class="EBtn E1">
+                            <img src="images/floor/E1.png" alt="">
+                        </div>
+                        <div class="EBtn E2">
+                            <img src="images/floor/E2.png" alt="">
+                        </div>
+                        <div class="EBtn E3">
+                            <img src="images/floor/E3.png" alt="">
+                        </div>
+                        <div class="EBtn E5">
+                            <img src="images/floor/E5.png" alt="">
+                        </div>
+                        <div class="EBtn E6">
+                            <img src="images/floor/E6.png" alt="">
+                        </div>
+                        <div class="EBtn E7">
+                            <img src="images/floor/E7.png" alt="">
+                        </div>
+                        <div class="EBtn E8">
+                            <img src="images/floor/E8.png" alt="">
+                        </div>
+                        <div class="EBtn E11" style="cursor: inherit;">
+                            <img src="images/floor/E11.png" alt="">
+                        </div>
+
+                        <div class="FBtn F1">
+                            <img src="images/floor/F1.png" alt="">
+                        </div>
+                        <div class="FBtn F2">
+                            <img src="images/floor/F2.png" alt="">
+                        </div>
+                        <div class="FBtn F3">
+                            <img src="images/floor/F3.png" alt="">
+                        </div>
+                        <div class="FBtn F5">
+                            <img src="images/floor/F5.png" alt="">
+                        </div>
+                        <div class="FBtn F6">
+                            <img src="images/floor/F6.png" alt="">
+                        </div>
+                        <div class="FBtn F7">
+                            <img src="images/floor/F7.png" alt="">
+                        </div>
+                        <div class="FBtn F8">
+                            <img src="images/floor/F8.png" alt="">
+                        </div>
+                        <div class="FBtn F11" style="cursor: inherit;">
+                            <img src="images/floor/F11.png" alt="">
+                        </div>
+
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/7-9Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 10F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        10F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/10FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/10Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 11F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        11F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/11FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/11Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="floor 12F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        12F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/12FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/12Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor 13F">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        13F
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/13FOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/13Fbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floor RF">
+                        <div class="txt B1txt">
+                            <div class="title">
+                                <div class="tr animate__animated animate__delay-1s animate__fadeInLeft">
+                                    <p>
+                                        RF
+                                    </p>
+                                    <p>
+                                        平面配置參考圖
+                                    </p>
+                                </div>
+                                <div class="tl animate__animated animate__delay-1s animate__fadeInRight">
+                                    <img src="images/floor/openBuild.png" alt="">
+                                </div>
+                            </div>
+                            <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                ※本圖面僅供參考，實際依買賣合約書內容為準。
+                            </div>
+                        </div>
+                        <div class="img B1img">
+                            <img src="images/floor/RFOpen.jpg" alt="">
+                        </div>
+                        <div class="backBtn animate__animated animate__lightSpeedInRight">
+                            <img src="images/back_pic.png" alt="">
+                        </div>
+                        <div class="dragarea">
+                            <div class="drag-box">
+                                <div class="drag">
+                                    <img src="images/floor/RFbig.png" alt="">
+                                </div>
+                            </div>
+                            <div class="backBtn3">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="jiapeiOpen">
+                        <div class="jiapei 1f"></div>
+                        <div class="jiapei 2f"></div>
+                        <div class="jiapei 3f"></div>
+                        <div class="jiapei 4-5f"></div>
+                        <div class="jiapei 6f"></div>
+                        <div class="jiapei 7-9f">
+                            <div class="E e1">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="E e2">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="E e3">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="E e5">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="E e6">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="E e7">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE7.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="E e8">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE8.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="E e11">
+                                <div class="txt H1txt">
+                                    <div class="title animate__animated animate__delay-1s animate__fadeInDown">
+                                        <p>
+                                            E11
+                                        </p>
+                                        <p>
+                                            傢俱配置參考圖
+                                        </p>
+                                    </div>
+                                    <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                        ※本圖面僅供參考，實際依買賣合約書內容為準。
+                                    </div>
+                                </div>
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiE11.jpg" alt="">
+                                </div>
+                            </div> -->
+
+                            <div class="F f1">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="F f2">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="F f3">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="F f5">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="F f6">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="F f7">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF7.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="F f8">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF8.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="F f11">
+                                <div class="txt H1txt">
+                                    <div class="title animate__animated animate__delay-1s animate__fadeInDown">
+                                        <p>
+                                            F11
+                                        </p>
+                                        <p>
+                                            傢俱配置參考圖
+                                        </p>
+                                    </div>
+                                    <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                        ※本圖面僅供參考，實際依買賣合約書內容為準。
+                                    </div>
+                                </div>
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiF11.jpg" alt="">
+                                </div>
+                            </div> -->
+
+                            <div class="H h1">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="H h2">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="H h3">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="H h5">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH5.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="H h6">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH6.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="H h7">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH7.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="H h8">
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH8.jpg" alt="">
+                                </div>
+                            </div>
+                            <!-- <div class="H h11">
+                                <div class="txt H1txt">
+                                    <div class="title animate__animated animate__delay-1s animate__fadeInDown">
+                                        <p>
+                                            H11
+                                        </p>
+                                        <p>
+                                            傢俱配置參考圖
+                                        </p>
+                                    </div>
+                                    <div class="content animate__animated animate__delay-1s animate__fadeInUp">
+                                        ※本圖面僅供參考，實際依買賣合約書內容為準。
+                                    </div>
+                                </div>
+                                <div class="img H1img">
+                                    <img src="images/floor/jiapeiH11.jpg" alt="">
+                                </div>
+                            </div> -->
+                            <div class="backBtn2 animate__animated animate__lightSpeedInRight">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                        </div>
+                        <div class="jiapei 10f"></div>
+                        <div class="jiapei 11f"></div>
+                        <div class="jiapei 12f"></div>
+                        <div class="jiapei 13f"></div>
+                        <div class="jiapei Rf"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="loadfooter">
+            COPYRIGHT @ 2021 XCITY CITIES OF TOMORROW BY UNIQUE
+        </div>
+    </footer>
+    <script>
+        AOS.init({
+            once: false,
+            mirror: true,
+            duration: 1000,
+        });
+    </script>
+</body>
+
+</html>

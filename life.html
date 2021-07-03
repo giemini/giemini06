@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>晶悅</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/life.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="js/jquery.dragscroll.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        FontJSON = {
+            User: "11785",
+            DomainID: "D0002836ZMV",
+            Font: ["DFHeiStd-W3", "DFHeiStd-W5", "DFHeiStd-W7"]
+        }
+    </script>
+    <script src='https://dfo.dynacw.com.tw/DynaJSFont/DynaFont.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min.js"></script>
+    <script>
+        $(function() {
+            // if(device.desktop()){
+            //     //
+            // }
+            // else{
+            //     document.location.href = "mobile/life.html";
+            // }
+            $(".big").click(() => {
+                $(".dragarea").fadeIn(800);
+            });
+            $(".small").click(() => {
+                $(".dragarea").fadeOut(800);
+            })
+        })
+    </script>
+    <script>
+        $(function() {
+            $('.drag').dragscroll();
+        });
+    </script>
+
+</head>
+
+<body style="overflow-y: scroll;">
+    <header>
+        <div class="loadheader">
+            <div class="humberA">
+                <img src="images/humber.png" alt="">
+            </div>
+            <div class="humberB">
+                <img src="images/humber_white.png" alt="">
+            </div>
+            <div class="menuArea">
+                <ul class="menu">
+                    <li class="navbtn">
+                        <a>
+                            建設大台南
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Tainan.html">
+                                    南&nbsp;臺&nbsp;灣&nbsp;樞&nbsp;紐
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            悠&nbsp;遊&nbsp;生&nbsp;活
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="traffic.html">
+                                    便&nbsp;&nbsp;利&nbsp;&nbsp;交&nbsp;&nbsp;通
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="daylife.html">
+                                    一&nbsp;&nbsp;日&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="life.html">
+                                    特&nbsp;&nbsp;區&nbsp;&nbsp;生&nbsp;&nbsp;活
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;美&nbsp;學
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Exterior.html">
+                                    建&nbsp;&nbsp;築&nbsp;&nbsp;外&nbsp;&nbsp;觀
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="Public.html">
+                                    公&nbsp;&nbsp;設&nbsp;&nbsp;規&nbsp;&nbsp;劃
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="floor.html">
+                                    樓&nbsp;&nbsp;層&nbsp;&nbsp;配&nbsp;&nbsp;置
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="underline">
+
+                        </div>
+                    </li>
+                    <li class="navbtn">
+                        <a>
+                            建&nbsp;築&nbsp;結&nbsp;構
+                        </a>
+                        <ul class="Subtn">
+                            <li class="navbtn">
+                                <a href="Construction.html">
+                                    精&nbsp;&nbsp;細&nbsp;&nbsp;工&nbsp;&nbsp;法
+                                </a>
+                            </li>
+                            <li class="navbtn">
+                                <a href="SGS.html">
+                                    SGS建築認證
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="BtnArea">
+                    <div class="HomeBtn">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="index">
+
+        <section class="wrapper">
+
+            <div class="Bread">
+                <div class="txt">
+                    悠遊生活&nbsp;特區生活
+                </div>
+            </div>
+            <div class="Bread2">
+                <div class="txt">
+                    悠遊生活&nbsp;特區生活
+                </div>
+            </div>
+            <div class="banner">
+                <div class="left">
+                    <div class="text">
+                        <div class="Btn">
+                            <div class="btns btn1 checked">
+                                生活<br /> 總覽
+                            </div>
+                            <div class="btns btn2">
+                                交通<br /> 樞紐
+                            </div>
+                            <div class="btns btn3">
+                                商圈<br /> 購物
+                            </div>
+                            <div class="btns btn4">
+                                知性<br /> 特區
+                            </div>
+                            <div class="btns btn5">
+                                人文<br /> 休憩
+                            </div>
+                        </div>
+                        <div class="content content1">
+                            <div class="title">
+                                生活總覽
+                            </div>
+                            台南高鐵站為全台唯一結合產業、交通與商場三位一體的高鐵站，並搭配政府數億資金投入建設，一口氣雲集交通、文創、產業、休憩、購物等機能，運籌特區的百年榮光。
+                        </div>
+                        <div class="content content2">
+                            <div class="title">
+                                交通樞紐
+                            </div>
+                            對外交通順暢便利，加上高鐵站與智慧綠能科學城的開發建設，具備快速路網效應，包括國道1號高速公路、國道3號高速公路、台1線省道、台86快速道路等，可迅速連結南紡購物中心商圈、約30分鐘車程連通台南科學園區，大幅提高生活圈的便利機能。
+                        </div>
+                        <div class="content content3">
+                            <div class="title">
+                                商圈購物
+                            </div>
+                            接軌國際新商場誕生！三井OUTLET砸重金於相鄰建案兩條街處擇地進駐，預計2022年開幕。將引進國際精品、排隊美食…等，帶動更多商機，活絡地區房價。
+                        </div>
+                        <div class="content content4">
+                            <div class="title">
+                                知性特區
+                            </div>
+                            生活圈內已規劃綠能科技聯合研究中心、大台南會展中心、中研院南部分院等，被中央定調發展為「沙崙智慧綠能科學城」，因此建置K12沙崙雙語學校，以供中央院等科技人才子女就讀；也吸引交通大學於區域內設置台南校區。
+                        </div>
+                        <div class="content content5">
+                            <div class="title">
+                                人文休憩
+                            </div>
+                            基地位置即坐擁公園預定地、國小預定地。區域也擁有充裕的綠地休閒賞景環境，運動公園、棒球場、文創園區、文化中心等，提供住戶良好休閒養生機能，居住起來更安心舒適。
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="pic pic1">
+                        <img src="images/life/pic01.png" alt="">
+                        <div class="big">
+                            <img src="images/life/big.png" alt="">
+                        </div>
+                    </div>
+                    <div class="pic pic2">
+                        <img src="images/life/pic02.png" alt="">
+                        <div class="arrow">
+                            <img src="images/life/arrow2.png" alt="">
+                        </div>
+                        <div class="reception">
+                            <img src="images/life/reception.png" alt="">
+                        </div>
+                        <div class="base">
+                            <img src="images/life/base.png" alt="">
+                        </div>
+                        <div class="three">
+                            <img src="images/life/3.png" alt="">
+                        </div>
+                        <div class="eightysix">
+                            <img src="images/life/86.png" alt="">
+                        </div>
+                        <div class="highspeed">
+                            <img src="images/life/highspeed.png" alt="">
+                        </div>
+                        <div class=" open openbtn1"></div>
+                        <div class=" open openbtn2"></div>
+                        <div class=" open openbtn3"></div>
+                        <div class=" open openbtn4"></div>
+                        <div class=" open openbtn5"></div>
+                        <div class="openpic openpic1">
+                            <img src="images/life/openpic05.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic2">
+                            <img src="images/life/openpic02.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic3">
+                            <img src="images/life/openpic01.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic4">
+                            <img src="images/life/openpic04.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic5">
+                            <img src="images/life/openpic03.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pic pic3">
+                        <img src="images/life/pic03.png" alt="">
+                        <div class="reception">
+                            <img src="images/life/reception.png" alt="">
+                        </div>
+                        <div class="base">
+                            <img src="images/life/base.png" alt="">
+                        </div>
+                        <div class="outlet">
+                            <img src="images/life/outlet.png" alt="">
+                        </div>
+                        <div class="openbtn carrefour animate__animated animate__rotateIn">
+                            <div class="carrefourbtn">
+                                仁德家樂福<br />商圈
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="openbtn univercity animate__animated animate__rotateIn">
+                            <div class="univercitybtn">
+                                長榮大學<br />商圈
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="openbtn hightspeed animate__animated animate__rotateIn">
+                            <div class="hightspeedbtn">
+                                高鐵台南站<br />商圈
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="openbtn citycenter animate__animated animate__rotateIn">
+                            <div class="citycenterbtn">
+                                歸仁市區<br />商圈
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class=" open openbtn20"></div>
+                        <div class="openpic openpic6">
+                            <img src="images/life/openpic06.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic7">
+                            <img src="images/life/openpic07.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic8">
+                            <img src="images/life/openpic08.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic9">
+                            <img src="images/life/openpic09.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic20">
+                            <img src="images/life/openpic20.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                3D示意圖
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pic pic4">
+                        <img src="images/life/pic04.png" alt="">
+                        <div class="reception">
+                            <img src="images/life/reception.png" alt="">
+                        </div>
+                        <div class="base">
+                            <img src="images/life/base.png" alt="">
+                        </div>
+                        <div class="collage">
+                            <img src="images/life/collage.png" alt="">
+                        </div>
+                        <div class="collage2">
+                            <img src="images/life/collage2.png" alt="">
+                        </div>
+                        <div class="earthquake">
+                            <img src="images/life/earthquake.png" alt="">
+                        </div>
+                        <div class="AIcar">
+                            <img src="images/life/AIcar.png" alt="">
+                        </div>
+                        <div class="green">
+                            <img src="images/life/green.png" alt="">
+                        </div>
+                        <div class="center">
+                            <img src="images/life/center.png" alt="">
+                        </div>
+                        <div class="bigten">
+                            <img src="images/life/bigten.png" alt="">
+                        </div>
+                        <div class="Exhibition">
+                            <img src="images/life/Exhibition.png" alt="">
+                        </div>
+                        <div class="sharon">
+                            <img src="images/life/sharon.png" alt="">
+                        </div>
+                        <div class=" open openbtn10"></div>
+                        <div class=" open openbtn11"></div>
+                        <div class=" open openbtn12"></div>
+                        <div class=" open openbtn13"></div>
+                        <div class=" open openbtn14"></div>
+                        <div class=" open openbtn15"></div>
+                        <div class=" open openbtn16"></div>
+
+                        <div class=" open openbtn21"></div>
+                        <div class=" open openbtn22"></div>
+                        <div class="openpic openpic10">
+                            <img src="images/life/openpic10.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic11">
+                            <img src="images/life/openpic11.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic12">
+                            <img src="images/life/openpic12.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic13">
+                            <img src="images/life/openpic17.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic14">
+                            <img src="images/life/openpic14.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic15">
+                            <img src="images/life/openpic15.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic16">
+                            <img src="images/life/openpic16.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic21">
+                            <img src="images/life/openpic21.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                3D示意圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic22">
+                            <img src="images/life/openpic22.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pic pic5">
+                        <img src="images/life/pic05.png" alt="">
+                        <div class="reception">
+                            <img src="images/life/reception.png" alt="">
+                        </div>
+                        <div class="base">
+                            <img src="images/life/base.png" alt="">
+                        </div>
+                        <div class="ten">
+                            <img src="images/life/ten.png" alt="">
+                        </div>
+                        <div class="pretty">
+                            <img src="images/life/pretty.png" alt="">
+                        </div>
+                        <div class="earthquake">
+                            <img src="images/life/earthquake-1.png" alt="">
+                        </div>
+                        <div class="openpic openpic17">
+                            <img src="images/life/openpic13.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class=" open openbtn17"></div>
+                        <div class=" open openbtn18"></div>
+                        <div class=" open openbtn19"></div>
+                        <div class="openpic openpic18">
+                            <img src="images/life/openpic18.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                        <div class="openpic openpic19">
+                            <img src="images/life/openpic19.jpg" alt="">
+                            <div class="back">
+                                <img src="images/back_pic.png" alt="">
+                            </div>
+                            <div class="imgtxt">
+                                實景圖
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="dragarea">
+                    <div class="drag-box">
+                        <div class="drag">
+                            <img src="images/life/bigtest.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="small">
+                        <img src="images/life/small.png" alt="">
+                    </div>
+                </div>
+
+                <!-- <div class="dragarea">
+                   <div class="drag-box">
+                       <div class="drag">
+                           <img src="images/life/drag.png" alt="">
+                       </div>
+                   </div>
+               </div> -->
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="loadfooter">
+            COPYRIGHT @ 2021 XCITY CITIES OF TOMORROW BY UNIQUE
+        </div>
+    </footer>
+</body>
+
+</html>
