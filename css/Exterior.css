@@ -1,0 +1,194 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.Bread {
+    width: 200px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 10;
+}
+
+.Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #fff;
+    font-family: 'DFHeiStd-W3';
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.images {
+    width: 100%;
+    font-size: 0;
+}
+
+.images img {
+    width: 100%;
+}
+
+.text {
+    width: 23.54166%;
+    position: absolute;
+    top: 3%;
+    left: 12%;
+    z-index: 3;
+}
+
+.text .content {
+    width: 100%;
+    font-size: 20px;
+    color: #5e5e5e;
+    line-height: 160%;
+    text-align: justify;
+    font-family: 'DFHeiStd-W5';
+}
+
+.text .title {
+    width: 100%;
+    font-size: 28px;
+    color: #131313;
+    border-left: 7px solid #e95412;
+    padding-left: 4%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+    line-height: 80%;
+    text-align: start;
+    font-family: 'DFHeiStd-W7';
+}
+
+.images .swiper-button-prev {
+    left: 12%;
+    top: 23%;
+}
+
+.images .swiper-button-next {
+    left: 15%;
+    top: 23%;
+}
+
+.images .swiper-button-prev:hover {
+    background-image: url("../images/construction/prev_color.png");
+}
+
+.images .swiper-button-next:hover {
+    background-image: url("../images/construction/next_color.png");
+}
+
+.nightBtn {
+    width: 3.03%;
+    position: absolute;
+    top: 20.9%;
+    left: 12%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.nightBtn img {
+    width: 100%;
+}
+
+.nightopen {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 3;
+}
+
+.nightopen img {
+    width: 100%;
+}
+
+.nightopen .text {
+    width: 23.54166%;
+    position: absolute;
+    top: 3%;
+    left: 12%;
+    z-index: 3;
+}
+
+.nightopen .text .content {
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    line-height: 160%;
+    text-align: justify;
+    font-family: 'DFHeiStd-W5';
+}
+
+.nightopen .text .title {
+    width: 100%;
+    font-size: 28px;
+    color: #fff;
+    border-left: 7px solid #e95412;
+    padding-left: 4%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+    line-height: 80%;
+    text-align: start;
+    font-family: 'DFHeiStd-W7';
+}
+
+.back {
+    width: 186px;
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+    cursor: pointer;
+}
+
+.back img {
+    width: 100%;
+}
+
+@media screen and (max-width:1560px) {
+    .nightopen .text .title,
+    .text .title {
+        font-size: 19px;
+    }
+    .nightopen .text .content,
+    .text .content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .text .title {
+        font-size: 18px;
+    }
+    .text .content {
+        font-size: 16px;
+    }
+    .Bread .txt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .text .title {
+        font-size: 16px;
+    }
+    .text .content {
+        font-size: 14px;
+    }
+    .Bread .txt {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1024px) {}

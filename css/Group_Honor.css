@@ -1,0 +1,111 @@
+.Honor{
+    width: 100%;
+    max-width: 51.45833%;
+    margin: 0 auto;
+}
+
+.Honor .Honorimg{
+    display: inline-block;
+    width: 43.40056%;
+    vertical-align: middle;
+}
+.Honor .Honorimg img{
+    width: 100%;
+}
+.Honor .Honorimg2{
+    display: inline-block;
+    width: 30.40056%;
+    vertical-align: middle;
+}
+.Honor .Honorimg2 img{
+    width: 100%;
+}
+.Honor .Honortxt{
+    display: inline-block;
+    width: 56.59944%;
+    vertical-align: middle;
+}
+.Honor .Honortxt2{
+    display: inline-block;
+    width: 69.59944%;
+    vertical-align: middle;
+}
+
+.Honortxt .Honorcontent{
+    width: 100%;
+    text-align: start;
+    padding-left: 10%;
+    margin-bottom: 3%;
+}
+.Honortxt2 .Honorcontent{
+    width: 100%;
+    text-align: start;
+    padding-left: 10%;
+    margin-bottom: 3%;
+}
+.Honorcontent p{
+    color: #131313;
+    font-size: 20px;
+    /* font-weight: bold; */
+    letter-spacing: 2px;
+    padding: 3% 0%;
+    font-family: 'Century Gothic';
+}
+.Honorcontent .txt{
+    width: 100%;
+    color: #131313;
+    font-size: 18px;
+    line-height: 160%;
+    font-family: 'DFHeiStd-W5';
+}
+
+.Honor .Honortxt2 .Medals{
+    width: 100%;
+    max-width: 87.30100%;
+    padding-left: 10%;
+}
+.Honor .Honortxt2 .Medals img{
+    width: 100%;
+}
+
+.backBtn2{
+    width: 186px;
+    position: absolute;
+    right: 2%;
+    bottom: 3%;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+.backBtn2:hover{
+    transform: translateX(-20px);
+    transition: all .5s ease-in-out;
+}
+.backBtn2 img{
+    width: 100%;
+}
+
+@media screen and (max-width:1560px){}
+@media screen and (max-width:1366px){
+    .Honorcontent p {
+        font-size: 18px;
+    }
+    .Honorcontent .txt {
+        font-size: 16px;
+    }
+    .backBtn2{
+        width: 150px;
+    }
+}
+@media screen and (max-width:1280px){
+    .Honorcontent p {
+        font-size: 16px;
+    }
+    .Honorcontent .txt {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:1024px){
+    .Honor {
+        max-width: 75.45833%;
+    }
+}

@@ -1,0 +1,176 @@
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.Bread{
+    width: 200px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+}
+/* .Bread .baseline {
+    display: inline-block;
+    width: 6px;
+    height: 23px;
+    background-color: #e95412;
+    vertical-align: top;
+} */
+.Bread .txt{
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #131313;
+    font-family: 'DFHeiStd-W3';
+}
+
+.BrandArea{
+    width: 100%;
+    max-width: 70.92708%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8% 0%;
+}
+
+.BrandArea .text{
+    width: 44.19092%;
+}
+.text .logo{
+    display: inline-block;
+    width: 30%;
+    margin-left: 3%;
+}
+.text .logo img{
+    width: 100%;
+}
+.text .title {
+    width: 100%;
+    padding: 3% 0% 3% 0%;
+}
+.title .txt{
+    display: inline-block;
+    font-size: 87px;
+    line-height: 100%;
+    vertical-align: bottom;
+    color: #e95412;
+    font-family: 'DFHeiStd-W7';
+}
+.text .content {
+    width: 100%;
+    text-align: justify;
+    font-size: 20px;
+    /* padding-right: 0%; */
+    color: #5e5e5e;
+    line-height: 160%;
+    letter-spacing: 2px;
+    font-family: 'Century Gothic','DFHeiStd-W5';
+}
+.text .content p{
+    font-size: 24px;
+    color: #131313;
+    border-left: 7px solid #e95412;
+    padding-left: 4%;
+    margin-bottom: 3%;
+    line-height: 100%;
+    font-family: 'DFHeiStd-W7';
+}
+.text .pagelink{
+    width: 100%;
+    padding-top: 4%;
+}
+.twenty{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #aeaeae;
+    font-size: 20px;
+    color: #5e5e5e;
+    text-align: center;
+    cursor: pointer;
+    padding: 1% 0%;
+    font-family: 'Century Gothic','DFHeiStd-W5';
+}
+.company {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid #aeaeae;
+    font-size: 20px;
+    color: #5e5e5e;
+    text-align: center;
+    margin-left: 5%;
+    cursor: pointer;
+    padding: 1.5% 0%;
+    font-family: 'DFHeiStd-W5';
+}
+.twenty:hover,.company:hover{
+    color: #e95412;
+    border: 1px solid #e95412;
+}
+
+
+.BrandArea .picture{
+    width: 65.80908%;
+}
+.BrandArea .picture img{
+    width: 100%;
+}
+
+
+@media screen and (max-width:1560px){}
+@media screen and (max-width:1366px){
+    .BrandArea {
+        max-width: 60.92708%;
+    }
+    .title .txt {
+        font-size: 18px;
+    }
+    .text .content {
+        font-size: 16px;
+        padding-right: 0%;
+    }
+    .text .content p {
+        font-size: 18px;
+    }
+    .twenty, .company {
+        font-size: 16px;
+    }
+    .text .logo img {
+        max-width: 150px;
+    }
+    .Bread .txt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1280px){
+    .title .txt {
+        font-size: 16px;
+    }
+    .text .content {
+        font-size: 14px;
+    }
+    .text .content p {
+        font-size: 16px;
+    }
+    .Bread .txt {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:1024px){
+    .BrandArea {
+        max-width: 80.92708%;
+    }
+    .text .content {
+        font-size: 16px;
+    }
+    .text .content p {
+        font-size: 16px;
+    }
+}

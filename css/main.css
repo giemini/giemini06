@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 0;
+    font-family: 'DFHeiStd-W3';
+    font-family: 'DFHeiStd-W5';
+    font-family: 'DFHeiStd-W7';
+}
+
+html,
+body {
+    width: 100%;
+    min-width: 1024px;
+    scroll-behavior: smooth;
+}

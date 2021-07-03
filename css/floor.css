@@ -1,0 +1,642 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+footer {
+    position: relative;
+}
+
+.Bread {
+    width: 200px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 4;
+}
+
+.Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #fff;
+    font-family: 'DFHeiStd-W3';
+}
+
+.floorOpen .Bread .txt2 {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #131313;
+    font-family: 'DFHeiStd-W3';
+    display: none;
+}
+
+.floorOpen .dragarea .Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #fff;
+    font-family: 'DFHeiStd-W3';
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.images {
+    width: 100%;
+    font-size: 0;
+}
+
+.images img {
+    width: 100%;
+}
+
+.West {
+    position: absolute;
+    top: 30.2%;
+    right: 7.6%;
+    width: 39.73958%;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.West img {
+    width: 100%;
+    font-size: 0;
+}
+
+.West:hover {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.icon {
+    position: absolute;
+    width: 110px;
+    min-width: 30px;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.Esicon {
+    top: 18%;
+    left: 30%;
+}
+
+.Wsicon {
+    top: 18%;
+    right: 27%;
+}
+
+.floorOpen {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.floorOpen .floor {
+    width: 100%;
+    position: relative;
+    display: none;
+}
+
+.floorOpen .img {
+    width: 100%;
+}
+
+.floorOpen .img img {
+    width: 100%;
+}
+
+.floorOpen .txt {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    width: 26.27083%;
+}
+
+.floorOpen .txt .title {
+    width: 100%;
+}
+
+.txt .title .tr {
+    display: inline-block;
+    /* width: 45%; */
+    padding-right: 6%;
+}
+
+.txt .title .tl {
+    display: inline-block;
+    width: 50%;
+}
+
+.txt .title .tl img {
+    width: 100%;
+}
+
+.txt .title .tr p:first-child {
+    color: #e95412;
+    font-size: 97px;
+    text-align: center;
+    line-height: 100%;
+    font-family: 'Century Gothic';
+}
+
+.txt .title .tr p:last-child {
+    color: #5e5e5e;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'DFHeiStd-W7';
+}
+
+.floorOpen .txt .content {
+    width: 100%;
+    font-size: 20px;
+    color: #5e5e5e;
+    letter-spacing: 2px;
+    font-family: 'DFHeiStd-W5';
+    padding-top: 2%;
+}
+
+.openmenu {
+    position: absolute;
+    top: 15%;
+    right: 0%;
+    width: 86px;
+    z-index: 2;
+}
+
+.openmenu .floors {
+    text-align: center;
+    font-size: 22px;
+    color: #5e5e5e;
+    font-family: 'Century Gothic';
+    padding: 10% 0%;
+    cursor: pointer;
+}
+
+.openmenu .floors:hover {
+    color: #e95412;
+}
+
+.openmenu .floors.check {
+    color: #e95412;
+}
+
+.openmenu li {
+    border-top: 1px solid #c1c1c1;
+}
+
+.big {
+    width: 58.2%;
+    min-width: 30px;
+    margin: 0 auto;
+    padding: 10% 0%;
+    position: relative;
+    animation-name: shake;
+    animation-timing-function: ease-in-out;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+.big img {
+    width: 100%;
+}
+
+.magnifier {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 56%;
+    min-width: 20px;
+}
+
+.magnifier img {
+    width: 100%;
+}
+
+.backBtn {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    width: 9.8%;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.backBtn img {
+    width: 100%;
+}
+
+.jiapei .backBtn2 {
+    position: absolute;
+    bottom: 3%;
+    right: 1%;
+    width: 9.8%;
+    min-width: 150px;
+    cursor: pointer;
+}
+
+.jiapei .backBtn2 img {
+    width: 100%;
+}
+
+.dragarea .backBtn3 {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    width: 9.8%;
+    cursor: pointer;
+}
+
+.dragarea .backBtn3 img {
+    width: 100%;
+}
+
+.floorOpen .floor.pear {
+    display: block;
+}
+
+.jiapeiOpen {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.jiapeiOpen .jiapei {
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.jiapeiOpen .jiapei .H {
+    width: 100%;
+    position: relative;
+}
+
+.HBtn,
+.EBtn,
+.FBtn {
+    position: absolute;
+    width: 2.1%;
+    cursor: pointer;
+}
+
+.HBtn img,
+.EBtn img,
+.FBtn img {
+    width: 100%;
+    font-size: 0;
+}
+
+.H1 {
+    top: 8.9%;
+    right: 27.8%;
+}
+
+.H2 {
+    top: 8.9%;
+    right: 24.3%;
+}
+
+.H3 {
+    top: 8.9%;
+    right: 20.6%;
+}
+
+.H5 {
+    top: 15.6%;
+    right: 20.6%;
+}
+
+.H6 {
+    top: 26.2%;
+    right: 20.6%;
+}
+
+.H7 {
+    top: 26.2%;
+    right: 24.3%;
+}
+
+.H8 {
+    top: 26.2%;
+    right: 27.8%;
+}
+
+.H11 {
+    top: 15.6%;
+    right: 27.8%;
+}
+
+.F1 {
+    top: 55%;
+    right: 50.8%;
+}
+
+.F2 {
+    top: 48.6%;
+    right: 50.8%;
+}
+
+.F3 {
+    top: 42%;
+    right: 50.8%;
+}
+
+.F5 {
+    top: 42%;
+    right: 46.8%;
+}
+
+.F6 {
+    top: 42%;
+    right: 40.2%;
+}
+
+.F7 {
+    top: 48.6%;
+    right: 40.2%;
+}
+
+.F8 {
+    top: 55%;
+    right: 40.2%;
+}
+
+.F11 {
+    top: 55%;
+    right: 46.8%;
+}
+
+.E1 {
+    bottom: 13.1%;
+    right: 27.5%;
+}
+
+.E2 {
+    bottom: 13.1%;
+    right: 24%;
+}
+
+.E3 {
+    bottom: 13.1%;
+    right: 20.7%;
+}
+
+.E5 {
+    bottom: 20%;
+    right: 20.7%;
+}
+
+.E6 {
+    bottom: 30.7%;
+    right: 20.7%;
+}
+
+.E7 {
+    bottom: 30.7%;
+    right: 24%;
+}
+
+.E8 {
+    bottom: 30.7%;
+    right: 27.5%;
+}
+
+.E11 {
+    bottom: 20%;
+    right: 27.5%;
+}
+
+.jiapeiOpen .txt {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 26.27083%;
+    text-align: start;
+}
+
+.jiapeiOpen .txt .title {
+    width: 189px;
+}
+
+.txt .title p:first-child {
+    color: #e95412;
+    font-size: 97px;
+    line-height: 100%;
+    text-align: center;
+    font-family: 'Century Gothic';
+}
+
+.txt .title p:last-child {
+    color: #5e5e5e;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'DFHeiStd-W7';
+}
+
+.jiapeiOpen .txt .content {
+    width: 100%;
+    font-size: 20px;
+    color: #5e5e5e;
+    letter-spacing: 2px;
+    font-family: 'DFHeiStd-W5';
+    padding-top: 2%;
+}
+
+.jiapeiOpen .img {
+    width: 100%;
+}
+
+.jiapeiOpen .img img {
+    width: 100%;
+}
+
+.jiapei .E {
+    display: none;
+}
+
+.dragarea {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 3;
+    display: none;
+}
+
+.drag-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 77.5%;
+    height: 88.2%;
+    overflow: hidden;
+    background-color: #f6f6f6;
+}
+
+@keyframes shake {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+}
+
+@media screen and (max-width:1560px) {
+    .text .title {
+        font-size: 20px;
+    }
+    .text .content {
+        font-size: 18px;
+    }
+    .txt .title .tr p:first-child {
+        font-size: 80px;
+    }
+    .txt .title .tr p:last-child {
+        font-size: 20px;
+    }
+    .txt .content {
+        font-size: 18px;
+    }
+    .openmenu .floors {
+        font-size: 20px;
+    }
+    .H1txt .title p:first-child {
+        font-size: 80px;
+    }
+    .H1txt .title p:last-child {
+        font-size: 20px;
+    }
+    .H1txt .content {
+        font-size: 18px;
+    }
+    .floorOpen .txt .content {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .text .title {
+        font-size: 18px;
+    }
+    .text .content {
+        font-size: 16px;
+    }
+    .Bread .txt {
+        font-size: 16px;
+    }
+    .txt .title .tr p:first-child {
+        font-size: 70px;
+    }
+    .txt .title .tr p:last-child {
+        font-size: 18px;
+    }
+    .txt .content {
+        font-size: 16px;
+    }
+    .openmenu .floors {
+        font-size: 18px;
+        padding: 6% 0%;
+    }
+    .H1txt .title p:first-child {
+        font-size: 70px;
+    }
+    .H1txt .title p:last-child {
+        font-size: 18px;
+    }
+    .H1txt .content {
+        font-size: 16px;
+    }
+    .jiapeiOpen .txt .title {
+        width: 140px;
+    }
+    .floorOpen .txt .content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .text .title {
+        font-size: 16px;
+    }
+    .text .content {
+        font-size: 14px;
+    }
+    .Bread .txt {
+        font-size: 14px;
+    }
+    .txt .title .tr p:first-child {
+        font-size: 60px;
+    }
+    .txt .title .tr p:last-child {
+        font-size: 16px;
+    }
+    .txt .content {
+        font-size: 14px;
+    }
+    .openmenu .floors {
+        font-size: 16px;
+    }
+    .openmenu {
+        top: 10%;
+    }
+    .H1txt .title p:first-child {
+        font-size: 70px;
+    }
+    .H1txt .title p:last-child {
+        font-size: 18px;
+    }
+    .H1txt .content {
+        font-size: 16px;
+    }
+    .jiapeiOpen .txt .title {
+        width: 140px;
+    }
+    .jiapeiOpen .txt .title {
+        width: 140px;
+    }
+    .floorOpen .txt .content {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1024px) {}

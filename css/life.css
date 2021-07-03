@@ -1,0 +1,975 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.index {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Bread {
+    width: 200px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 3;
+}
+
+.Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #000;
+    font-family: 'DFHeiStd-W3';
+}
+
+.Bread2 {
+    width: 200px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 3;
+    display: none;
+}
+
+.Bread2 .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #fff;
+    font-family: 'DFHeiStd-W3';
+}
+
+.banner {
+    width: 100%;
+    background-color: #e95412;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    position: relative;
+    -webkit-transform: scale(1) translate(0, 0);
+}
+
+.left {
+    width: 24.89584%;
+}
+
+.right {
+    width: 75.10416%;
+    position: relative;
+    overflow: hidden;
+}
+
+.pic {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.right .pic img {
+    width: 100%;
+}
+
+.reception {
+    position: absolute;
+    width: 4.1%;
+    height: 11%;
+    top: 52.6%;
+    left: 31.3%;
+}
+
+.pic4 .reception {
+    position: absolute;
+    top: 46.9%;
+    left: 30.3%;
+}
+
+.pic3 .reception {
+    position: absolute;
+    top: 52.6%;
+    left: 33.8%;
+}
+
+.pic2 .reception {
+    position: absolute;
+    top: 57.1%;
+    left: 36.3%;
+}
+
+.right .pic .reception img {
+    width: 100%;
+    height: 100%;
+}
+
+.base {
+    position: absolute;
+    width: 9.6%;
+    height: 7.7%;
+    right: 16.7%;
+    top: 50.3%;
+}
+
+.pic4 .base {
+    position: absolute;
+    right: 15.8%;
+    top: 44%;
+}
+
+.pic3 .base {
+    position: absolute;
+    right: 14.5%;
+    top: 50.3%;
+}
+
+.pic2 .base {
+    position: absolute;
+    right: 5.7%;
+    top: 54.1%;
+}
+
+.right .pic .base img {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    width: 100%;
+    max-width: 82.682%;
+    margin: 0 auto;
+    margin-right: 0%;
+    padding-bottom: 30%;
+}
+
+.text .content {
+    width: 100%;
+    height: 223.75px;
+    font-size: 20px;
+    text-align: justify;
+    color: #221815;
+    line-height: 160%;
+    font-family: 'DFHeiStd-W5';
+}
+
+.text .content .title {
+    width: 100%;
+    font-size: 28px;
+    color: #fff;
+    border-left: 7px solid #fff;
+    padding-left: 4%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+    line-height: 80%;
+    text-align: start;
+    font-family: 'DFHeiStd-W7';
+}
+
+.Btn {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.Btn .btns {
+    display: inline-block;
+    width: 16%;
+    height: 64px;
+    border: 1px solid #000;
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 4%;
+    padding-top: 1.8%;
+    cursor: pointer;
+    line-height: 115%;
+    letter-spacing: 2px;
+    font-family: 'DFHeiStd-W7';
+}
+
+.Btn .btns:last-child {
+    margin-right: 0%;
+}
+
+.Btn .btns:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.checked {
+    border: 1px solid #fff !important;
+    color: #fff !important;
+}
+
+.content2,
+.content3,
+.content4,
+.content5 {
+    display: none;
+}
+
+.pic2,
+.pic3,
+.pic4,
+.pic5 {
+    display: none;
+}
+
+.arrow {
+    position: absolute;
+    top: 42%;
+    left: -2%;
+    width: 30px;
+    animation: arrowmove 20s linear infinite;
+}
+
+.arrow img {
+    width: 100%;
+    height: auto;
+}
+
+.open {
+    position: absolute;
+    /* border:  1px solid blue; */
+    width: 3%;
+    height: 4%;
+    cursor: pointer;
+}
+
+.openbtn1 {
+    top: 41%;
+    left: 17.4%;
+}
+
+.openbtn2 {
+    top: 29.4%;
+    left: 24.2%;
+}
+
+.openbtn3 {
+    top: 40.9%;
+    right: 1%;
+}
+
+.openbtn4 {
+    width: 11.7%;
+    bottom: 31.4%;
+    right: 37.6%;
+}
+
+.openbtn5 {
+    width: 4.7%;
+    bottom: 25.4%;
+    right: 41.6%;
+}
+
+.openbtn10 {
+    bottom: 20%;
+    left: 35%;
+    width: 6%;
+}
+
+.openbtn11 {
+    top: 22%;
+    left: 28%;
+    width: 7.5%;
+    height: 10.6%;
+}
+
+.openbtn12 {
+    bottom: 30.8%;
+    right: 34%;
+    width: 11.7%;
+}
+
+.openbtn13 {
+    top: 27%;
+    left: 36.1%;
+    width: 15.7%;
+    height: 6.1%;
+}
+
+.openbtn14 {
+    bottom: 25%;
+    right: 34.2%;
+    width: 10.8%;
+}
+
+.openbtn15 {
+    right: 8.7%;
+    bottom: 31%;
+    width: 15.8%;
+}
+
+.openbtn16 {
+    right: 1%;
+    bottom: 30.7%;
+    width: 6.3%;
+    height: 4.2%;
+}
+
+.openbtn17 {
+    top: 32.1%;
+    left: 36.8%;
+    width: 15.2%;
+    height: 7.6%;
+}
+
+.openbtn18 {
+    top: 26%;
+    left: 7%;
+    width: 7.9%;
+    height: 13.2%;
+}
+
+.openbtn19 {
+    top: 27.3%;
+    left: 15.5%;
+    width: 5.8%;
+    height: 11.9%;
+}
+
+.openbtn20 {
+    top: 58.9%;
+    left: 56.5%;
+    width: 8.6%;
+    height: 9.7%;
+}
+
+.openbtn21 {
+    top: 64.9%;
+    left: 45.2%;
+    width: 6.7%;
+    height: 4.7%;
+}
+
+.openbtn22 {
+    top: 37.9%;
+    left: 45.2%;
+    width: 6.7%;
+    height: 4.7%;
+}
+
+.openpic {
+    width: 100%;
+    height: calc(100vh - 40px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.openpic img {
+    width: 100%;
+}
+
+.openpic .back {
+    position: fixed;
+    right: 2%;
+    bottom: 9%;
+    width: 8%;
+    min-width: 120px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.openpic .back img {
+    width: 100%;
+    height: auto;
+}
+
+.openpic .back:hover {
+    transform: translateX(-20px);
+    transition: all .5s ease-in-out;
+}
+
+.imgtxt {
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'DFHeiStd-W7';
+}
+
+.pic3 .outlet {
+    position: absolute;
+    width: 9.8%;
+    height: 9.4%;
+    left: 55.2%;
+    top: 59.1%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.right .pic3 .outlet img {
+    width: 100%;
+    height: 100%;
+}
+
+.openbtn {
+    position: absolute;
+}
+
+.carrefour {
+    top: 13%;
+    left: 11%;
+}
+
+.univercity {
+    bottom: 5%;
+    left: 29.7%;
+}
+
+.hightspeed {
+    bottom: 28%;
+    left: 45.7%;
+}
+
+.citycenter {
+    top: 10%;
+    right: 5%;
+}
+
+.carrefourbtn,
+.univercitybtn,
+.hightspeedbtn,
+.citycenterbtn {
+    position: relative;
+    width: 136px;
+    height: 136px;
+    background-color: rgba(243, 217, 45, .44);
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    padding-top: 33%;
+    font-size: 23px;
+    font-family: 'DFHeiStd-W5';
+    line-height: 120%;
+    cursor: pointer;
+    /* animation-name: rotateIn; */
+    /* animation-duration: 2s; */
+}
+
+.openbtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 134px;
+    height: 134px;
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, .1);
+    border-radius: 100%;
+    opacity: 0;
+    animation: shine 2s ease-in-out infinite;
+}
+
+.big {
+    position: absolute;
+    left: 0%;
+    bottom: 5%;
+    width: 4.9%;
+    cursor: pointer;
+    z-index: 0;
+}
+
+.big img {
+    width: 100%;
+}
+
+
+/* .dragarea{
+    position: absolute;
+    right: 0%;
+    width: 75.10416%;
+    overflow: hidden;
+    display: none;
+}
+.drag-box{
+    width: 100%;
+} */
+
+.dragarea {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: none;
+}
+
+.drag-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 77.5%;
+    height: 88.2%;
+    overflow: hidden;
+}
+
+.small {
+    position: absolute;
+    left: 6%;
+    bottom: 6%;
+    width: 3.7%;
+    cursor: pointer;
+}
+
+.small img {
+    width: 100%;
+}
+
+.pic2 .three {
+    position: absolute;
+    top: 40.3%;
+    right: 0.5%;
+    width: 3.9%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic2 .three img {
+    width: 100%;
+}
+
+.pic2 .eightysix {
+    position: absolute;
+    top: 40.6%;
+    left: 16.9%;
+    width: 4.1%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic2 .eightysix img {
+    width: 100%;
+}
+
+.pic2 .highspeed {
+    position: absolute;
+    bottom: 25.4%;
+    right: 37.6%;
+    width: 11.7%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic2 .highspeed img {
+    width: 100%;
+}
+
+.pic4 .collage {
+    position: absolute;
+    bottom: 31%;
+    right: 1%;
+    width: 6.1%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .collage img {
+    width: 100%;
+}
+
+.pic4 .collage2 {
+    position: absolute;
+    top: 19.9%;
+    left: 27.7%;
+    width: 17.6%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .collage img {
+    width: 100%;
+}
+
+.pic4 .earthquake {
+    position: absolute;
+    top: 25%;
+    left: 36%;
+    width: 15.7%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .earthquake img {
+    width: 100%;
+}
+
+.pic4 .AIcar {
+    position: absolute;
+    bottom: 30.9%;
+    right: 34.3%;
+    width: 11.7%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .AIcar img {
+    width: 100%;
+}
+
+.pic4 .green {
+    position: absolute;
+    bottom: 25%;
+    right: 34.3%;
+    width: 10.7%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .green img {
+    width: 100%;
+}
+
+.pic4 .center {
+    position: absolute;
+    bottom: 31%;
+    right: 9%;
+    width: 15.7%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .center img {
+    width: 100%;
+}
+
+.pic4 .bigten {
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    width: 6.4%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .bigten img {
+    width: 100%;
+}
+
+.pic4 .Exhibition {
+    position: absolute;
+    bottom: 30.5%;
+    left: 45.4%;
+    width: 6.4%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .Exhibition img {
+    width: 100%;
+}
+
+.pic4 .sharon {
+    width: 6.7%;
+    position: absolute;
+    top: 36.6%;
+    left: 45.1%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic4 .sharon img {
+    width: 100%;
+}
+
+.pic5 .ten {
+    position: absolute;
+    top: 27%;
+    left: 14.7%;
+    width: 6.4%;
+    animation-name: scroll3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic5 .ten img {
+    width: 100%;
+}
+
+.pic5 .pretty {
+    position: absolute;
+    top: 25.9%;
+    left: 7%;
+    width: 8.3%;
+    animation-name: scroll2;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic5 .pretty img {
+    width: 100%;
+}
+
+.pic5 .earthquake {
+    position: absolute;
+    top: 32%;
+    left: 37%;
+    width: 14.8%;
+    animation-name: scroll;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.pic5 .earthquake img {
+    width: 100%;
+}
+
+@keyframes scroll {
+    0% {
+        transform: scale(1);
+    }
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes scroll2 {
+    0% {
+        transform: scale(1) translateX(0px);
+    }
+    25% {
+        transform: scale(1.1) translateX(-10px);
+    }
+    50% {
+        transform: scale(1) translateX(0px);
+    }
+    75% {
+        transform: scale(1.1) translateX(-10px);
+    }
+}
+
+@keyframes scroll3 {
+    0% {
+        transform: scale(1) translateX(0px);
+    }
+    25% {
+        transform: scale(1.1) translateX(10px);
+    }
+    50% {
+        transform: scale(1) translateX(0px);
+    }
+    75% {
+        transform: scale(1.1) translateX(10px);
+    }
+}
+
+@keyframes arrowmove {
+    0% {
+        opacity: 0;
+        top: 42%;
+        left: -2%;
+    }
+    25% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        top: 42%;
+        left: 93%;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0px);
+    }
+    25% {
+        transform: translateX(-20px);
+    }
+}
+
+@keyframes shine {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    60% {
+        box-shadow: 0 0 0 20px rgba(255, 255, 255, .1);
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:1560px) {
+    .text .content .title {
+        font-size: 19px;
+    }
+    .text .content p {
+        font-size: 19px;
+    }
+    .text .content {
+        font-size: 16px;
+    }
+    .four span,
+    .three span {
+        font-size: 18px;
+    }
+    .four,
+    .three {
+        font-size: 18px;
+    }
+    .Btn .btns {
+        height: 50px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .text .content .title {
+        font-size: 18px;
+    }
+    .text .content p {
+        font-size: 17px;
+    }
+    .text .content {
+        font-size: 16px;
+    }
+    .four span,
+    .three span {
+        font-size: 16px;
+    }
+    .four,
+    .three {
+        font-size: 16px;
+    }
+    .Btn .btns {
+        height: 50px;
+        font-size: 16px;
+    }
+    .big {
+        bottom: 7%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .text .content .title {
+        font-size: 16px;
+    }
+    .text .content p {
+        font-size: 15px;
+    }
+    .text .content {
+        font-size: 14px;
+    }
+    .four span,
+    .three span {
+        font-size: 14px;
+    }
+    .four,
+    .three {
+        font-size: 14px;
+    }
+    .arrow {
+        top: 41.6%;
+        width: 25px;
+    }
+    .right {
+        width: 70.10416%;
+    }
+    .left {
+        width: 29.89584%;
+    }
+    .carrefourbtn,
+    .univercitybtn,
+    .hightspeedbtn,
+    .citycenterbtn {
+        width: 100px;
+        height: 100px;
+        font-size: 18px;
+    }
+    .openbtn::before {
+        width: 96px;
+        height: 96px;
+    }
+    .hightspeed {
+        left: 43.7%;
+    }
+    .big {
+        bottom: 7%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .imgtxt {
+        bottom: 2%;
+    }
+    .Btn .btns {
+        width: 18%;
+        height: 57px;
+        font-size: 16px;
+    }
+    .carrefourbtn,
+    .univercitybtn,
+    .hightspeedbtn,
+    .citycenterbtn {
+        width: 80px;
+        height: 80px;
+        font-size: 16px;
+    }
+    .openbtn::before {
+        width: 76px;
+        height: 76px;
+    }
+}

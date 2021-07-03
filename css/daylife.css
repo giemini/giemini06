@@ -1,0 +1,462 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.Bread {
+    width: 200px;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 3;
+}
+
+.Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #131313;
+    font-family: 'DFHeiStd-W3';
+}
+
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.text {
+    width: 25.625%;
+    position: absolute;
+    left: 11.6%;
+    top: 33.5%;
+}
+
+.text .title {
+    text-align: start;
+    width: 100%;
+    font-size: 68px;
+    color: #e95412;
+    margin-bottom: 5.5%;
+    line-height: 80%;
+    letter-spacing: 1.6px;
+    font-family: 'DFHeiStd-W7';
+}
+
+.subtitle {
+    font-size: 24px;
+    color: #131313;
+    border-left: 7px solid #e95412;
+    padding-left: 4%;
+    margin-bottom: 4.6%;
+    font-family: 'DFHeiStd-W7';
+}
+
+.content {
+    width: 100%;
+    font-size: 20px;
+    color: #5e5e5e;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+    text-align: justify;
+    font-family: 'DFHeiStd-W5';
+}
+
+.container {
+    width: 100%;
+    position: relative;
+}
+
+.container img {
+    width: 100%;
+}
+
+.text2 {
+    width: 25.825%;
+    position: absolute;
+    right: 11.6%;
+    top: 34.1%;
+}
+
+.text2 .title {
+    text-align: start;
+    width: 100%;
+    font-size: 68px;
+    color: #e95412;
+    margin-bottom: 5.5%;
+    line-height: 80%;
+    letter-spacing: 1.6px;
+    font-family: 'DFHeiStd-W7';
+}
+
+.point {
+    display: none;
+    position: absolute;
+    transition: all .5s ease-in-out;
+}
+
+.point img {
+    width: 100%;
+}
+
+.taipei {
+    width: 6.72%;
+    top: 13.8%;
+    left: 35.8%;
+    transition: all .5s ease-in-out;
+}
+
+.taoyuan {
+    width: 8.36%;
+    top: 18.9%;
+    left: 31.1%;
+    transition: all .5s ease-in-out;
+}
+
+.hsinchu {
+    width: 7.57%;
+    top: 23.4%;
+    left: 29.4%;
+    transition: all .5s ease-in-out;
+}
+
+.taichung {
+    width: 8.89%;
+    top: 31.3%;
+    left: 25.8%;
+    transition: all .5s ease-in-out;
+}
+
+.kaohsiung {
+    width: 10.01%;
+    top: 66.3%;
+    left: 20.6%;
+    transition: all .5s ease-in-out;
+}
+
+.color {
+    position: absolute;
+    display: none;
+    transition: all .5s ease-in-out;
+}
+
+.color img {
+    width: 100%;
+}
+
+.taipei-color {
+    width: 16.53%;
+    top: 13.6%;
+    left: 26%;
+    transition: all .5s ease-in-out;
+}
+
+.taoyuan-color {
+    width: 18.24%;
+    top: 18.4%;
+    left: 21.2%;
+    transition: all .5s ease-in-out;
+}
+
+.hsinchu-color {
+    width: 16.86%;
+    top: 23%;
+    left: 19.9%;
+    transition: all .5s ease-in-out;
+}
+
+.taichung-color {
+    width: 18.76%;
+    top: 30.8%;
+    left: 15.9%;
+    transition: all .5s ease-in-out;
+}
+
+.kaohsiung-color {
+    width: 19.88%;
+    top: 66.3%;
+    left: 10.7%;
+    transition: all .5s ease-in-out;
+}
+
+.dot {
+    position: absolute;
+    cursor: pointer;
+}
+
+.dot img {
+    width: 100%;
+}
+
+.dot01 {
+    width: 12.64%;
+    right: 26.4%;
+    bottom: 24.9%;
+}
+
+.dot02 {
+    width: 8.36%;
+    right: 32.7%;
+    bottom: 53.3%;
+}
+
+.dot03 {
+    width: 9.88%;
+    right: 28.1%;
+    bottom: 61%;
+}
+
+.dot04 {
+    width: 10.87%;
+    right: 42.1%;
+    bottom: 59.1%;
+    z-index: 3;
+}
+
+.dot05 {
+    width: 9.22%;
+    right: 36.7%;
+    bottom: 63.8%;
+    z-index: 2;
+}
+
+.dot06 {
+    width: 6.32%;
+    right: 43.1%;
+    bottom: 74.7%;
+}
+
+.dot07 {
+    width: 7.18%;
+    right: 39.4%;
+    bottom: 78.8%;
+}
+
+.dot08 {
+    width: 6.32%;
+    right: 43.4%;
+    bottom: 68.6%;
+}
+
+.dot09 {
+    width: 15.34%;
+    right: 8.7%;
+    bottom: 21.2%;
+}
+
+.dot10 {
+    width: 8.36%;
+    right: 32.4%;
+    bottom: 18.7%;
+}
+
+.dot11 {
+    width: 10.87%;
+    right: 42.6%;
+    bottom: 64%;
+    z-index: 2;
+}
+
+.dot12 {
+    width: 9.75%;
+    right: 49%;
+    bottom: 63.5%;
+}
+
+.dot13 {
+    width: 7.18%;
+    right: 57.4%;
+    bottom: 67.7%;
+}
+
+.car {
+    display: none;
+    width: 11.52%;
+    position: absolute;
+    transform: translateY(100%);
+    transition: transform 1s ease-in-out;
+    z-index: 5;
+}
+
+.car img {
+    width: 100%;
+}
+
+.car01 {
+    bottom: 31.6%;
+    right: 26.9%;
+}
+
+.car02 {
+    bottom: 59.8%;
+    right: 31.4%;
+}
+
+.car03 {
+    bottom: 67.8%;
+    right: 27.8%;
+}
+
+.car04 {
+    bottom: 62.1%;
+    right: 50.5%;
+    z-index: 4;
+}
+
+.car05 {
+    bottom: 67.6%;
+    right: 35.3%;
+    z-index: 3;
+}
+
+.car06 {
+    bottom: 77.7%;
+    right: 47.8%;
+    z-index: 2;
+}
+
+.car07 {
+    bottom: 85.4%;
+    right: 38.1%;
+}
+
+.car08 {
+    bottom: 71.5%;
+    right: 47.8%;
+    z-index: 2;
+}
+
+.car09 {
+    bottom: 27.8%;
+    right: 10.5%;
+}
+
+.car10 {
+    bottom: 25.3%;
+    right: 31.4%;
+}
+
+.car11 {
+    bottom: 67.1%;
+    right: 50.5%;
+    z-index: 4;
+}
+
+.car12 {
+    bottom: 67.7%;
+    right: 49%;
+}
+
+.car13 {
+    bottom: 70.7%;
+    right: 62.7%;
+}
+
+.car.apear {
+    display: block;
+    transform: translateY(0%);
+    transition: transform 1s ease-in-out;
+}
+
+.scrolldown {
+    position: fixed;
+    bottom: 8%;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #131313;
+    border-radius: 50%;
+    animation: down 2s ease-in-out infinite;
+}
+
+.downbtn {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.downbtn::after {
+    content: '';
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #131313;
+    border-bottom: 1px solid #131313;
+}
+
+.apear2 {
+    display: block;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(20px);
+    }
+}
+
+@media screen and (max-width:1560px) {
+    .text .title {
+        font-size: 30px;
+    }
+    .text2 .title {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 19px;
+    }
+    .content {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .text {
+        font-size: 18px;
+    }
+    .text p {
+        font-size: 20px;
+    }
+    .imgtxt {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .text {
+        font-size: 16px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+    .imgtxt {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .imgtxt {
+        bottom: 2%;
+    }
+}

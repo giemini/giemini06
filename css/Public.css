@@ -1,0 +1,391 @@
+.wrapper {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.noscroll {
+    overflow-y: hidden;
+}
+
+.Bread {
+    width: 210px;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 3;
+}
+
+.Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #131313;
+    font-family: 'DFHeiStd-W3';
+}
+
+.swipe {
+    width: 100%;
+    position: relative;
+}
+
+.swipe img {
+    width: 100%;
+}
+
+.first {
+    width: 6.46%;
+    position: absolute;
+    top: 30.2%;
+    left: 11.6%;
+}
+
+.first img {
+    width: 100%;
+}
+
+.swipe02 .btnarea {
+    width: 33.84%;
+    position: absolute;
+    top: 41.3%;
+    left: 11.6%;
+}
+
+.btnarea .left,
+.btnarea .right {
+    display: inline-block;
+    width: 49%;
+}
+
+.btnarea .content {
+    width: 100%;
+    margin-bottom: 5.9%;
+}
+
+.btnarea .content .eng {
+    width: 12%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.btnarea .content .eng img {
+    width: 100%;
+}
+
+.btnarea .content .txt {
+    width: 180px;
+    display: inline-block;
+    font-size: 23px;
+    color: #131313;
+    font-family: 'DFHeiStd-W7';
+    vertical-align: middle;
+    padding-left: 6.2%;
+    letter-spacing: 0.7px;
+    cursor: pointer;
+}
+
+.btnarea .content .txt:hover {
+    color: #e95412;
+    text-decoration: underline;
+}
+
+.swipe01 .btnarea {
+    width: 153px;
+    position: absolute;
+    top: 44.9%;
+    right: 16%;
+}
+
+.swipe01 .btnarea .content {
+    margin-bottom: 8.9%;
+}
+
+.swipe01 .btnarea .content .txt {
+    width: 110px;
+    padding-left: 9.4%;
+}
+
+.RF {
+    width: 7.11%;
+    position: absolute;
+    top: 33.7%;
+    right: 18.2%;
+}
+
+.RF img {
+    width: 100%;
+}
+
+.swiperarea {
+    display: none;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: #e95412;
+    z-index: 3;
+}
+
+.colorblock {
+    position: absolute;
+    display: none;
+}
+
+.colorblock img {
+    width: 100%;
+}
+
+.Ahover {
+    width: 3.3%;
+    bottom: 24.2%;
+    left: 55.8%;
+}
+
+.Bhover {
+    width: 3.5%;
+    bottom: 15.5%;
+    left: 50.8%;
+}
+
+.Chover {
+    width: 2.5%;
+    bottom: 32%;
+    left: 63.3%;
+}
+
+.Dhover {
+    width: 3.5%;
+    bottom: 41.1%;
+    left: 62.3%;
+}
+
+.Ehover {
+    width: 2.8%;
+    bottom: 51.3%;
+    left: 70.3%;
+}
+
+.Fhover {
+    width: 1.3%;
+    bottom: 24.1%;
+    left: 70.3%;
+}
+
+.Ghover {
+    width: 2%;
+    bottom: 54.4%;
+    left: 70.3%;
+}
+
+.Hhover {
+    width: 2.5%;
+    bottom: 25.9%;
+    left: 70.4%;
+}
+
+.Ihover {
+    width: 13.8%;
+    bottom: 23.2%;
+    left: 61.7%;
+}
+
+.Jhover {
+    width: 2.3%;
+    bottom: 34%;
+    left: 77.6%;
+}
+
+.A2hover {
+    width: 22%;
+    bottom: 22%;
+    left: 22.2%;
+}
+
+.B2hover {
+    width: 27.8%;
+    bottom: 13.6%;
+    left: 17.8%;
+}
+
+.swipe01 .swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: unset;
+    top: 50%;
+    left: 20.8%;
+    right: unset;
+    width: unset;
+    transform: translate(0px, -50%);
+}
+
+.swipe02 .swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: unset;
+    top: 57%;
+    left: 9%;
+    right: unset;
+    width: unset;
+    transform: translate(0px, -50%);
+}
+
+.swipe03 .swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: unset;
+    top: 50%;
+    left: 20.8%;
+    right: unset;
+    width: unset;
+    transform: translate(0px, -50%);
+}
+
+.swipe04 .swiper-container-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: unset;
+    top: 50%;
+    left: unset;
+    right: 20%;
+    width: unset;
+    transform: translate(0px, -50%);
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 7px 0px !important;
+}
+
+.swipe02 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0px 7px !important;
+}
+
+.swipe .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: block;
+    border-radius: 50%;
+    background: #725d53;
+    opacity: 1;
+}
+
+.swipe .swiper-pagination-bullet-active {
+    background: #f3d92d;
+}
+
+.swipe02 .swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #725d53;
+    opacity: 1;
+}
+
+.swipe02 .swiper-pagination-bullet-active {
+    background: #f3d92d;
+}
+
+.bgpic {
+    position: absolute;
+    z-index: 1;
+}
+
+.bgpic img {
+    width: 100%;
+}
+
+.bg03 {
+    width: 17.86458%;
+    bottom: 4.1%;
+    left: 3.2%;
+}
+
+.bg04 {
+    width: 18.64583%;
+    bottom: 7.3%;
+    right: 1.9%;
+}
+
+.openpic {
+    width: 100%;
+    font-size: 0;
+}
+
+.openpic img {
+    width: 100%;
+}
+
+.swiperarea #One,
+.swiperarea .openpic,
+.swiperarea #Four {
+    display: none;
+}
+
+.swiperarea .back {
+    width: 186px;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.swiperarea .back img {
+    width: 100%;
+}
+
+.scrolldown {
+    position: fixed;
+    bottom: 8%;
+    left: 48%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #131313;
+    border-radius: 50%;
+    animation: down 2s ease-in-out infinite;
+}
+
+.downbtn {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.downbtn::after {
+    content: '';
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    width: 20px;
+    height: 20px;
+    border-right: 1px solid #131313;
+    border-bottom: 1px solid #131313;
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(0px);
+    }
+    25% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    75% {
+        transform: translateY(20px);
+    }
+}
+
+@media screen and (max-width:1560px) {
+    .btnarea .content .txt {
+        font-size: 16px;
+    }
+}
