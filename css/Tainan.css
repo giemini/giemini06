@@ -161,4 +161,7 @@
     .place {
         width: 8.44%;
     }
+    .open .back {
+        width: 9%;
+    }
 }
