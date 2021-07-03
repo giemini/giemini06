@@ -1,0 +1,492 @@
+.wrapper {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: #f6f6f6;
+}
+
+.Bread {
+    width: 200px;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    text-align: end;
+    z-index: 3;
+}
+
+.Bread .txt {
+    display: inline-block;
+    border-right: 7px solid #e95412;
+    line-height: 100%;
+    font-size: 18px;
+    vertical-align: bottom;
+    padding-right: 8%;
+    color: #131313;
+    font-family: 'DFHeiStd-W3';
+}
+
+.banner {
+    width: 100%;
+    /* height: calc(100vh - 40px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.images {
+    width: 54.6875%;
+    font-size: 0;
+    position: relative;
+}
+
+.images img {
+    width: 100%;
+}
+
+.text {
+    width: 45.3125%;
+    padding-left: 5%;
+}
+
+.text .content {
+    width: 100%;
+    max-width: 64.22758%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #5e5e5e;
+    line-height: 160%;
+    text-align: justify;
+    font-family: 'DFHeiStd-W5';
+}
+
+.text .title {
+    width: 100%;
+    max-width: 64.22758%;
+    margin: 0 auto;
+    font-size: 80px;
+    color: #e95412;
+    margin-bottom: 3%;
+    letter-spacing: 2px;
+    line-height: 80%;
+    text-align: start;
+    font-family: 'DFHeiStd-W7';
+}
+
+.text .title2 {
+    width: 100%;
+    max-width: 64.22758%;
+    margin: 0 auto;
+    font-size: 59px;
+    color: #e95412;
+    margin-bottom: 3%;
+    letter-spacing: 2px;
+    line-height: 80%;
+    text-align: start;
+    font-family: 'DFHeiStd-W7';
+}
+
+.text .content p {
+    width: 100%;
+    font-size: 24px;
+    color: #000;
+    border-left: 7px solid #e95412;
+    padding-left: 3%;
+    letter-spacing: 1px;
+    margin-bottom: 4.5%;
+    line-height: 100%;
+    text-align: start;
+    font-family: 'DFHeiStd-W7';
+}
+
+.text .txt {
+    width: 100%;
+    font-size: 20px;
+    color: #5e5e5e;
+    line-height: 160%;
+    text-align: justify;
+    font-family: 'DFHeiStd-W5';
+    padding-bottom: 7.5%;
+}
+
+.four,
+.three {
+    width: 100%;
+    font-size: 20px;
+    color: #000;
+}
+
+.four div,
+.three div {
+    vertical-align: middle;
+}
+
+.four span,
+.three span {
+    color: #e95412;
+    font-size: 20px;
+    padding-right: 1%;
+}
+
+.four {
+    padding: 3% 0%;
+}
+
+.icon {
+    width: 27px;
+    height: 27px;
+    display: inline-block;
+}
+
+.icon img {
+    width: 100%;
+}
+
+.car {
+    width: 9.63%;
+    position: absolute;
+    bottom: 0%;
+    right: 70.7%;
+    animation: car 25s linear infinite;
+}
+
+.car img {
+    width: 100%;
+}
+
+.car2 {
+    width: 9.63%;
+    position: absolute;
+    top: 0%;
+    right: 61.6%;
+    animation: car2 20s linear infinite;
+    animation-delay: 0.5s;
+}
+
+.car2 img {
+    width: 100%;
+}
+
+.train {
+    width: 69px;
+    position: absolute;
+    bottom: 0%;
+    right: 55.7%;
+    animation: train 20s linear infinite;
+    animation-delay: 0.8s;
+}
+
+.train img {
+    width: 100%;
+}
+
+.car3 {
+    width: 80px;
+    position: absolute;
+    top: 0%;
+    right: 36.7%;
+    animation: car3 20s linear infinite;
+    animation-delay: 0.8s;
+}
+
+.car3 img {
+    width: 100%;
+}
+
+@keyframes car {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        bottom: 8%;
+        opacity: 1;
+    }
+    10% {
+        bottom: 16%;
+        right: 70.7%;
+        opacity: 1;
+    }
+    15% {
+        bottom: 25%;
+        opacity: 1;
+    }
+    20% {
+        bottom: 32%;
+        right: 70.7%;
+        opacity: 1;
+    }
+    25% {
+        bottom: 35%;
+        right: 77.7%;
+        opacity: 1;
+    }
+    30% {
+        bottom: 38%;
+        right: 84.7%;
+        opacity: 1;
+    }
+    35% {
+        bottom: 44%;
+        right: 84.7%;
+        opacity: 1;
+    }
+    40% {
+        bottom: 48%;
+        right: 86.7%;
+        opacity: 1;
+    }
+    45% {
+        bottom: 55%;
+        right: 94.7%;
+        animation-delay: 2000;
+    }
+    50% {
+        bottom: 67%;
+        right: 93.7%;
+        opacity: 1;
+    }
+    55% {
+        bottom: 73%;
+        right: 93.7%;
+        opacity: 1;
+    }
+    60% {
+        bottom: 82%;
+        right: 92.4%;
+        opacity: 1;
+    }
+    65% {
+        bottom: 90%;
+        right: 89.7%;
+        opacity: 1;
+    }
+    70% {
+        bottom: 95.4%;
+        right: 87%;
+        opacity: 1;
+    }
+    75% {
+        bottom: 90.4%;
+        right: 76%;
+        opacity: 1;
+    }
+    80% {
+        bottom: 86.4%;
+        right: 67%;
+        opacity: 1;
+    }
+    85% {
+        bottom: 81.4%;
+        right: 56%;
+        opacity: 1;
+    }
+    90% {
+        bottom: 76.4%;
+        right: 45%;
+        opacity: 1;
+    }
+    95% {
+        bottom: 70.4%;
+        right: 34%;
+        opacity: 1;
+    }
+    100% {
+        bottom: 64.4%;
+        right: 20.7%;
+        opacity: 0;
+    }
+}
+
+@keyframes car2 {
+    0% {
+        opacity: 0;
+    }
+    12.5% {
+        top: 10%;
+        right: 63.5%;
+        opacity: 1;
+    }
+    25% {
+        top: 24%;
+        opacity: 1;
+    }
+    37.5% {
+        top: 36%;
+        right: 62.6%;
+        opacity: 1;
+    }
+    50% {
+        top: 45%;
+        right: 61.6%;
+        opacity: 1;
+    }
+    62.5% {
+        top: 56%;
+        opacity: 1;
+    }
+    75% {
+        top: 68%;
+        right: 60.5%;
+        opacity: 1;
+    }
+    87.5% {
+        top: 85%;
+        right: 59.1%;
+        opacity: 1;
+    }
+    100% {
+        top: 92%;
+        right: 57.6%;
+        opacity: 0;
+    }
+}
+
+@keyframes train {
+    0% {
+        opacity: 0;
+    }
+    12.5% {
+        bottom: 13%;
+        right: 58.7%;
+        opacity: 1;
+    }
+    25% {
+        bottom: 30%;
+        right: 67.7%;
+        opacity: 1;
+    }
+    37.5% {
+        bottom: 40%;
+        right: 63.7%;
+        opacity: 1;
+    }
+    50% {
+        bottom: 49%;
+        right: 52.7%;
+        opacity: 1;
+    }
+    62.5% {
+        bottom: 58%;
+        right: 47.9%;
+        opacity: 1;
+    }
+    75% {
+        bottom: 70%;
+        right: 45.3%;
+        opacity: 1;
+    }
+    87.5% {
+        bottom: 86%;
+        right: 44.7%;
+        opacity: 1;
+    }
+    100% {
+        bottom: 94.5%;
+        right: 44.6%;
+        opacity: 0;
+    }
+}
+
+@keyframes car3 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        top: 15%;
+        right: 39.7%;
+        opacity: 1;
+    }
+    40% {
+        top: 32%;
+        right: 41%;
+        opacity: 1;
+    }
+    60% {
+        top: 48%;
+        right: 41.3%;
+        opacity: 1;
+    }
+    80% {
+        top: 66%;
+        right: 39.4%;
+        opacity: 1;
+    }
+    100% {
+        top: 92%;
+        right: 38.2%;
+        opacity: 0;
+    }
+}
+
+@media screen and (max-width:1560px) {
+    .text .title,
+    .text .title2 {
+        font-size: 30px;
+    }
+    .text .content p {
+        font-size: 19px;
+    }
+    .text .content {
+        font-size: 18px;
+    }
+    .text .txt {
+        font-size: 16px;
+    }
+    .four span,
+    .three span {
+        font-size: 18px;
+    }
+    .four,
+    .three {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .text .content .title {
+        font-size: 18px;
+    }
+    .text .content p {
+        font-size: 17px;
+    }
+    .text .content {
+        font-size: 16px;
+    }
+    .four span,
+    .three span {
+        font-size: 16px;
+    }
+    .four,
+    .three {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .text .content .title {
+        font-size: 16px;
+    }
+    .text .content p {
+        font-size: 15px;
+    }
+    .text .content {
+        font-size: 14px;
+    }
+    .four span,
+    .three span {
+        font-size: 14px;
+    }
+    .four,
+    .three {
+        font-size: 14px;
+    }
+    .text .content {
+        max-width: 60.82758%;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .imgtxt {
+        bottom: 2%;
+    }
+}
