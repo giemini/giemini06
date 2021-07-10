@@ -105,12 +105,12 @@
 }
 
 .oxygen {
-    bottom: 25.2%;
+    bottom: 28.2%;
     left: 18.7%;
 }
 
 .drain {
-    bottom: 28.3%;
+    bottom: 31.3%;
     left: 39.2%;
 }
 
@@ -2117,7 +2117,7 @@
         font-size: 16px;
     }
     .oxygen {
-        left: 17.7%;
+        left: 18.7%;
         bottom: 27.2%;
     }
     .water {
@@ -2131,7 +2131,15 @@
     }
     .drain {
         bottom: 31.3%;
-        left: 38.2%;
+        left: 39.2%;
+    }
+    .digital {
+        bottom: 31.4%;
+        right: 32.4%;
+    }
+    .wisdom {
+        bottom: 28.3%;
+        right: 7.2%;
     }
     .tag .tagimg {
         width: 88px;
