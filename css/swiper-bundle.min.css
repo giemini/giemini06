@@ -613,3 +613,12 @@ button.swiper-pagination-bullet {
         left: 15.5%;
     }
 }
+
+@media screen and (max-width:1366px) {
+    .swiper-button-next,
+    .swiper-container-rtl .swiper-button-prev,
+    .swiper-button-prev,
+    .swiper-container-rtl .swiper-button-next {
+        top: 66%;
+    }
+}
